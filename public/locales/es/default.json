@@ -47,6 +47,17 @@
             }
           }
         },
+        "about": {
+          "title_wave": "HOLA! ",
+          "title_intro": "SOY KATHERIN",
+          "subtitle": "ASESORA E INVERSIONISTA INMOBILIARIA",
+          "paragraph_1": "¿Habéis escuchado hablar sobre la libertad financiera? Pues es a lo que me dedico tras años de análisis y estudios de mercado.",
+          "paragraph_2": "Hace 5 años empecé a invertir en bolsa, hace 2 hice mi primera inversión en una nuda propiedad, y hace uno me adentré en el mundo de las subastas.",
+          "paragraph_3": "Definitivamente, hay muchas maneras de obtener retorno de inversión pero el más estable y predecible es el sector de bienes raíces.",
+          "paragraph_4": "¿Te gustaría vivir una experiencia positiva e inolvidable en el momento que decidas comprar, vender o alquilar un inmueble? Si tu respuesta es afirmativa, ",
+          "paragraph_4_cta": "¡cuenta conmigo!"
+
+        },
         "newsletter": {
             "title": "Newsletter",
             "title2": " inmobiliaria",

@@ -5,6 +5,7 @@ import IntrocutionSection from '../components/IntroductionSection';
 import DrawerAppBar from '../components/DrawerAppBar';
 import StrategiesSection from '../components/StrategiesSection';
 import DonwloadsContentSection from '../components/DonwloadsContentSection';
+import AboutSection from '../components/AboutSection';
 
 import NewsletterSection from '../components/NewsletterSection';
 
@@ -18,6 +19,7 @@ export default function Home() {
       <DrawerAppBar t={t} />
       <StrategiesSection t={t} />
       <DonwloadsContentSection t={t} />
+      <AboutSection t={t} />
 
       <NewsletterSection t={t} />
     </main>

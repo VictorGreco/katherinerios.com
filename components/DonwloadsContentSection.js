@@ -41,87 +41,90 @@ const contents = [
 
 function DonwloadsContentSection({ t }) {
   return (
-    <Grid 
-        container 
-        spacing={12}   
-        justifyContent="center"   
-        alignItems="center"
-    > 
-        <Grid
-            item
-            xs={12} 
-            md={12}
-            justifyContent="center" 
+    <section>
+        <Grid 
+            container 
+            spacing={12}   
+            justifyContent="center"   
             alignItems="center"
         > 
-            <h1 className={styles.MainTitle}>
-                {t('landing_page.downloads.mainTitile')}
-            </h1>
-            <h3 className={styles.MainSubtitle}>
-                {t('landing_page.downloads.mainSubtitle')}
-            </h3>
-        </Grid>
+            <Grid
+                item
+                xs={12} 
+                md={12}
+                justifyContent="center" 
+                alignItems="center"
+            > 
+                <h1 className={styles.MainTitle}>
+                    {t('landing_page.downloads.mainTitile')}
+                </h1>
+                <h3 className={styles.MainSubtitle}>
+                    {t('landing_page.downloads.mainSubtitle')}
+                </h3>
+            </Grid>
 
-        <Grid        
-            item
-            xs={12}
-            md={12}
-            justifyContent="center"
-            alignItems="center"
-        > 
-            {contents.map((content, index) => {
-                return (
-                    <Grid 
-                        key={content.title} 
-                        container 
-                        flexDirection={index % 2 === 0 ? 'row' : 'row-reverse'}
-                        justifyContent="center"   
-                        alignItems="center"
-                        className={styles.ContentWrapper}
-                    >
-                        <Grid
-                            item
-                            xs={12} 
-                            md={4}
-                            sx={{ display: 'flex' }}
-                            justifyContent="center"
-                            alignItems="center"
-                            flexDirection='column'
-                            className={`${styles.Box} ${content.mainBoxStyles}`}
-                        >
-                            <img
-                                className={styles.MainImage}
-                                src={content.mainImage}
-                                width={100}
-                                height={100}
-                            />
-
-                            <h1 className={styles.ContentMainTitle}>{t(content.title)}</h1>
-                            <h3 className={styles.ContentMainSubtitle}>{t(content.subtitle)}</h3>
-                            <CtaButton className={styles.DownloadsContentSectionCtaButton} text={t(content.ctaButtonText)}/>
-
-                        </Grid>
+            <Grid        
+                item
+                xs={12}
+                md={12}
+                justifyContent="center"
+                alignItems="center"
+            > 
+                {contents.map((content, index) => {
+                    return (
                         <Grid 
-                            item
-                            xs={12} 
-                            md={4}
-                            justifyContent="center"
+                            key={content.title} 
+                            container 
+                            flexDirection={index % 2 === 0 ? 'row' : 'row-reverse'}
+                            justifyContent="center"   
                             alignItems="center"
-                            className={`${styles.Box}`}
-                        > 
-                            <Image
-                                className={styles.SideImage}
-                                src={content.sideImage}
-                                width={100}
-                                height={100}
-                            />
-                        </Grid>
+                            className={styles.ContentWrapper}
+                        >
+                            <Grid
+                                item
+                                xs={12} 
+                                md={4}
+                                sx={{ display: 'flex' }}
+                                justifyContent="center"
+                                alignItems="center"
+                                flexDirection='column'
+                                className={`${styles.Box} ${content.mainBoxStyles}`}
+                            >
+                                <img
+                                    className={styles.MainImage}
+                                    src={content.mainImage}
+                                    width={100}
+                                    height={100}
+                                />
 
-                    </Grid>
-                )
-            })}
+                                <h1 className={styles.ContentMainTitle}>{t(content.title)}</h1>
+                                <h3 className={styles.ContentMainSubtitle}>{t(content.subtitle)}</h3>
+                                <CtaButton className={styles.DownloadsContentSectionCtaButton} text={t(content.ctaButtonText)}/>
+
+                            </Grid>
+                            <Grid 
+                                item
+                                xs={12} 
+                                md={4}
+                                justifyContent="center"
+                                alignItems="center"
+                                className={`${styles.Box}`}
+                            > 
+                                <Image
+                                    className={styles.SideImage}
+                                    src={content.sideImage}
+                                    width={100}
+                                    height={100}
+                                />
+                            </Grid>
+
+                        </Grid>
+                    )
+                })}
+            </Grid>
         </Grid>
-    </Grid>
+    </section>
+
 );
 }
 
