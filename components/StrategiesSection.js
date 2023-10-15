@@ -18,7 +18,7 @@ const questions = [
 
 function StrategiesSection({ t }) {
   return (
-    <section>
+    <section id="strategy">
         <Grid 
             container 
             spacing={12}   

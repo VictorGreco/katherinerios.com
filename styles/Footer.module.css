@@ -1,0 +1,12 @@
+.Footer {
+    margin: 100px 0 0 0;
+    text-align: center;
+    height: 100px;
+    background: rgba(155, 156, 197, 0.10);
+    color: #2D2E51;
+    font-family: Aleo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}

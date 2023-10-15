@@ -6,8 +6,10 @@ import DrawerAppBar from '../components/DrawerAppBar';
 import StrategiesSection from '../components/StrategiesSection';
 import DonwloadsContentSection from '../components/DonwloadsContentSection';
 import AboutSection from '../components/AboutSection';
+import OpinionsSection from '../components/OpinionsSection';
 
 import NewsletterSection from '../components/NewsletterSection';
+import Footer from '../components/Footer';
 
 
 export default function Home() {
@@ -20,8 +22,9 @@ export default function Home() {
       <StrategiesSection t={t} />
       <DonwloadsContentSection t={t} />
       <AboutSection t={t} />
-
+      <OpinionsSection t={t} />
       <NewsletterSection t={t} />
+      <Footer t={t} />
     </main>
 
   )

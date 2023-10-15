@@ -1,0 +1,52 @@
+.SectionWrapper {
+    margin: 100px 0 0 0;
+    height: 830px;
+    background: gray;
+    padding: 0 100px 0 100px;
+    background: url('/statics/opinionsSectionImage.png'), lightgray -0.381px -105.143px / 100.044% 117.033% no-repeat;}
+
+.Title {
+    color: #FFF;
+    text-align: right;
+    font-family: Inknut Antiqua;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Subtitle {
+    color: #FFF;
+    text-align: right;
+    font-family: La Belle Aurore;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 125% */
+}
+
+.Testimony {
+    color: #FFF;
+    font-family: Aleo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Author {
+    color: #E69CA3;
+    font-family: Aleo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 10px 0 0 0;
+}
+
+.OpinionWrapper {
+    width: 400px;
+    height: 250px;
+    background: rgba(87, 98, 102, 0.80);
+    padding: 30px;
+}

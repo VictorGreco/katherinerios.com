@@ -11,7 +11,7 @@ import styles from '../styles/NewsletterSection.module.css';
 
 function NewsletterSection({ t }) {
   return (
-    <section>
+    <section id="newsletter">
         <Grid 
             container 
             justifyContent="center"   

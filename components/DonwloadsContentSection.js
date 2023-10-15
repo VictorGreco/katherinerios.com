@@ -41,7 +41,7 @@ const contents = [
 
 function DonwloadsContentSection({ t }) {
   return (
-    <section>
+    <section id="ebooks">
         <Grid 
             container 
             spacing={12}   

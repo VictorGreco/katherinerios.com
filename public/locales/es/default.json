@@ -58,12 +58,33 @@
           "paragraph_4_cta": "¡cuenta conmigo!"
 
         },
+        "experiance": {
+          "title": "HACIENDO AMIGOS",
+          "subtitle": "en todo el mundo",
+          "opinions": {
+            "opinion1": {
+              "testimony": "\"Me encanta la gente que sirve, que da lo mejor de sí para dejar contento al cliente. Eres la mejor Realtor que he tenido.\"",
+              "author": "– Rafael Armas"
+            },
+            "opinion2": {
+              "testimony": "\"Lo mejor de que me ayudaras a comprar mi casa es que no me siento como una cliente, sino como una amiga a la que siempre quieres ayudar.\"",
+              "author": "– Rosaura Sánchez"
+            },
+            "opinion3": {
+              "testimony": "\"Vender mi casa estando fuera de mi país y saber que tu te preocupabas por cada detalle y me mantenias informada, no tiene precio\"",
+              "author": "– Eglyana Hernandez"
+            }
+          }
+        },
         "newsletter": {
             "title": "Newsletter",
             "title2": " inmobiliaria",
             "subtitle": "Recibe información en tu correo",
             "body": "Comprar, vender o alquilar un inmueble pueden ser procesos complicados, permíteme ayudarte con consejos breves y prácticos hasta que estés preparado para acompañarte en el siguiente paso.",
             "ctaButton": "QUIERO RECIBER MÁS INFORMACIÓN"
+        },
+        "footer": {
+          "copy": "All Rights reserverd 2023 ©"
         }
     }
 }

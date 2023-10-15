@@ -16,12 +16,30 @@ import Button from '@mui/material/Button';
 
 const drawerWidth = 240;
 const navItems = [
-    'landing_page.introduction.menu.strategy', 
-    'landing_page.introduction.menu.ebooks', 
-    'landing_page.introduction.menu.blog', 
-    'landing_page.introduction.menu.aboutme', 
-    'landing_page.introduction.menu.experiance', 
-    'landing_page.introduction.menu.newsletter', 
+    {
+      "name": "landing_page.introduction.menu.strategy",
+      "link": "#strategy"
+    },
+    {
+      "name": "landing_page.introduction.menu.ebooks",
+      "link": "#ebooks"
+    },
+    {
+      "name": "landing_page.introduction.menu.blog",
+      "link": "#blog"
+    },
+    {
+      "name": "landing_page.introduction.menu.aboutme",
+      "link": "#aboutme"
+    },
+    {
+      "name": "landing_page.introduction.menu.experiance",
+      "link": "#experiance"
+    },
+    {
+      "name": "landing_page.introduction.menu.newsletter",
+      "link": "#newsletter"
+    }
   ];
 
 export default function DrawerAppBar({ t, window }) {
@@ -43,9 +61,11 @@ export default function DrawerAppBar({ t, window }) {
       <Divider />
       <List>
         {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
+          <ListItem key={item.name} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={t(item)} />
+              <a href={item.link}>
+                <ListItemText primary={t(item.name)} />
+              </a>
             </ListItemButton>
           </ListItem>
         ))}
@@ -71,9 +91,12 @@ export default function DrawerAppBar({ t, window }) {
             </IconButton>
             <Box sx={{ display: { xs: 'none', sm: 'flex', justifyContent: 'center', width: '100%' } }}>
               {navItems.map((item) => (
-                <Button key={item} sx={{ color: '#fff', marginRight: '40px' }}>
-                  {t(item)}
-                </Button>
+                <a href={item.link}>
+                  <Button key={item.name} sx={{ color: '#fff', marginRight: '40px' }}>
+                      {t(item.name)}
+                    </Button>
+                </a>
+     
               ))}
             </Box>
           </Toolbar>

@@ -8,7 +8,7 @@ import styles from '../styles/AboutSection.module.css';
 
 function AboutSection({ t }) {
   return (
-    <section>
+    <section id="aboutme">
          <Grid
         container
         justifyContent="start"

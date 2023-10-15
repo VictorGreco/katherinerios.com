@@ -8,7 +8,7 @@ import styles from '../styles/IntroductionSection.module.css';
 
 function IntroductionSection({ t }) {
   return (
-    <section>
+    <section id="home">
         <Grid 
             container
             justifyContent="space-between"
