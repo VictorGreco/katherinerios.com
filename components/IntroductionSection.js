@@ -10,13 +10,13 @@ function IntroductionSection({ t }) {
   return (
     <Grid 
         container
-        justifyContent="start"
+        justifyContent="space-between"
         alignItems="center"
     > 
         <Grid 
             item
             xs={12}
-            md={9}
+            md={8}
             justifyContent="center" 
             alignItems="center"
         > 
@@ -33,6 +33,16 @@ function IntroductionSection({ t }) {
         <Grid             
             item
             xs={12}
+            md={1}
+            justifyContent="center"
+            alignItems="center"
+        > 
+
+        </Grid>
+
+        <Grid             
+            item
+            xs={12}
             md={2}
             justifyContent="center"
             alignItems="center"
@@ -42,6 +52,15 @@ function IntroductionSection({ t }) {
                 <span className={styles.CoolName}>Katherin</span>
                 <span className={styles.CoolSurname}>Rios</span>
             </div>
+        </Grid>
+        <Grid             
+            item
+            xs={12}
+            md={1}
+            justifyContent="center"
+            alignItems="center"
+        > 
+
         </Grid>
     </Grid>
 );

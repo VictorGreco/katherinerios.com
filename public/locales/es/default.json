@@ -11,6 +11,21 @@
             "newsletter": "NEWSLETTER"
           }  
         },
+        "strategies": {
+          "investments": {
+            "titlePart1": "¿QUIERES ",
+            "titlePowerWord": "INVERTIR ",
+            "titlePart2": "PERO NO SABES POR DÓNDE EMPEZAR?",
+            "subtitle": "Te ofrezco una asesoría 100% gratuita y sin compromiso",
+            "ctaButtonText": "SÍ, QUIERO QUE ME AYUDES",
+            "retoricQuestions": {
+              "question1": "¿Por qué debería invertir en bienes raíces?",
+              "question2": "¿Cuándo es el mejor momento para invertir?",
+              "question3": "¿Cuánto debería de invertir para empezar?",
+              "question4": "¿Dónde es más rentable invertir?"
+            }
+          }
+        },
         "newsletter": {
             "title": "Newsletter",
             "title2": " inmobiliaria",

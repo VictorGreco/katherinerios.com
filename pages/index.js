@@ -3,6 +3,8 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 import IntrocutionSection from '../components/IntroductionSection';
 import DrawerAppBar from '../components/DrawerAppBar';
+import StrategiesSection from '../components/StrategiesSection';
+
 import NewsletterSection from '../components/NewsletterSection';
 
 
@@ -13,6 +15,7 @@ export default function Home() {
     <main>
       <IntrocutionSection t={t} />
       <DrawerAppBar t={t} />
+      <StrategiesSection t={t} />
       <NewsletterSection t={t} />
     </main>
 
