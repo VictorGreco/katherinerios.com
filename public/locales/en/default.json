@@ -1,0 +1,11 @@
+{
+    "landing_page": {
+        "test": "English",
+        "newsletter": {
+            "title": "Newsletter",
+            "title2": " inmobiliaria",
+            "subtitle": "Recibe información en tu correo",
+            "body": "Comprar, vender o alquilar un inmueble pueden ser procesos complicados, permíteme ayudarte con consejos breves y prácticos hasta que estés preparado para acompañarte en el siguiente paso."
+        }
+    }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "katherinrios.com",
+  "name": "katerninrios.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.14.13",
+    "@mui/material": "^5.14.13",
+    "i18next": "^23.5.1",
+    "next": "13.5.4",
+    "next-i18next": "^14.0.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.4"
+    "react-i18next": "^13.3.0"
   }
 }

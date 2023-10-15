@@ -1,0 +1,69 @@
+.NewsletterGridElement {
+    text-align: center;
+}
+
+.NewsletterImage {
+    width: 479px;
+    height: auto;
+}
+
+.titleWrapper {
+    text-align: start;
+    margin: 0 0 40px 0;
+}
+
+.title {
+    color: #000;
+    text-align: center;
+    font-family: Inknut Antiqua;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 80px; /* 166.667% */
+}
+
+.title2 {
+    color: #000;
+    font-family: La Belle Aurore;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+}
+
+.subtitle {
+    color: #E69CA3;
+    font-family: Aleo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: start;
+    margin: 0 0 40px 0;
+
+}
+
+.body {
+    color: #2D2E51;
+    font-family: Aleo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: start;
+    margin: 0 0 40px 0;
+
+}
+
+.NewsletterCtaButton {
+    width: 100%;
+    height: 80px;
+    flex-shrink: 0;
+    background: #2D2E51;
+    color: #FFF;
+    font-family: Aleo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -1,0 +1,32 @@
+.IntroductionSectionImage {
+    width: 1200px;
+    height: auto;
+}
+
+.CoolNameWrapper {
+    border: 1px solid #E69CA3;
+}
+
+.Coolname {
+    color: #E69CA3;
+    text-align: center;
+    font-family: La Belle Aurore;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 93.75% */
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.Coolsurname {
+    color: rgba(230, 156, 163, 0.30);
+    text-align: center;
+    font-family: Inknut Antiqua;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150px; /* 156.25% */
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
