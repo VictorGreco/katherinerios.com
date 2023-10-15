@@ -1,0 +1,88 @@
+.MainTitle {
+    color: #E69CA3;
+    text-align: center;
+    font-family: Inknut Antiqua;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.MainSubtitle {
+    color: #2D2E51;
+    text-align: center;
+    font-family: Aleo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ContentMainTitle {
+    color: #2D2E51;
+    text-align: center;
+    font-family: Aleo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 0 20px 0;
+}
+
+.ContentMainSubtitle {
+    color: #2D2E51;
+    text-align: center;
+    font-family: Aleo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0 0 20px 0;
+}
+
+.Box {
+    width: 570px;
+    height: 475px;
+    margin: 0 20px 0 20px;
+}
+
+.ContentWrapper {
+    margin: 0 0 40px 0;
+}
+
+.MainContentWrapperPink {
+    padding: 30px;
+    background: rgba(230, 156, 163, 0.30);}
+
+.MainContentWrapperWhite {
+    padding: 30px;
+    background: #FFF;
+}
+
+.MainContentWrapperGrey {
+    padding: 30px;
+    background: rgba(155, 156, 197, 0.10);
+}
+
+.DownloadsContentSectionCtaButton {
+    width: 75%;
+    height: 80px;
+    flex-shrink: 0;
+    background: #2D2E51;
+    color: #FFF;
+    font-family: Aleo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.MainImage {
+    width: 75%;
+    height: auto;  
+}
+
+.SideImage {
+    width: 100%;
+    height: auto;
+}

@@ -26,6 +26,27 @@
             }
           }
         },
+        "downloads": {
+          "mainTitile": "DESCARGA GRATIS LAS GUÍAS",
+          "mainSubtitle": "Estas guías te ayudarán a conocer el proceso de compra, venta y alquiler en España",
+          "contents": {
+            "content1": {
+              "title": "¿Listo para comprar tu primera casa?",
+              "subtitle": "Responde 7 preguntas y descúbrelo",
+              "ctaButtonText": "¡DESCARGA LA GUÍA AQUÍ!"
+            },
+            "content2": {
+              "title": "10 errores que cometen los compradores",
+              "subtitle": "¡Uno de estos errores pone en riesgo tu patrimonio!",
+              "ctaButtonText": "¡DESCARGA LA GUÍA AQUÍ!"
+            },
+            "content3": {
+              "title": "¿Listo para comprar tu primera casa?",
+              "subtitle": "Responde 7 preguntas y descúbrelo",
+              "ctaButtonText": "¡DESCARGA LA GUÍA AQUÍ!"
+            }
+          }
+        },
         "newsletter": {
             "title": "Newsletter",
             "title2": " inmobiliaria",
