@@ -11,13 +11,13 @@ function IntroductionSection({ t }) {
     <Grid 
         container
         justifyContent="start"
-        alignItems="start"
+        alignItems="center"
     > 
         <Grid 
             item
             xs={12}
-            md={8}
-            justifyContent="start" 
+            md={9}
+            justifyContent="center" 
             alignItems="center"
         > 
         <Image
@@ -39,8 +39,8 @@ function IntroductionSection({ t }) {
             className={styles.NewsletterGridElement}
         > 
             <div className={styles.CoolNameWrapper}>
-                <span className={styles.Coolname}>Katherin</span>
-                <span className={styles.Coolsurname}>Rios</span>
+                <span className={styles.CoolName}>Katherin</span>
+                <span className={styles.CoolSurname}>Rios</span>
             </div>
         </Grid>
     </Grid>

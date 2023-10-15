@@ -1,6 +1,16 @@
 {
     "landing_page": {
         "test": "Español",
+        "introduction": {
+          "menu": {
+            "strategy": "ESTRATEGIAS",
+            "ebooks": "EBOOKS",
+            "blog": "BLOG",
+            "aboutme": "SOBRE MI",
+            "experiance": "EXPERIENCIAS",
+            "newsletter": "NEWSLETTER"
+          }  
+        },
         "newsletter": {
             "title": "Newsletter",
             "title2": " inmobiliaria",

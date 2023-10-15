@@ -2,16 +2,17 @@ import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
 import IntrocutionSection from '../components/IntroductionSection';
-
+import DrawerAppBar from '../components/DrawerAppBar';
 import NewsletterSection from '../components/NewsletterSection';
 
 
 export default function Home() {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
   return (
     <main>
       <IntrocutionSection t={t} />
+      <DrawerAppBar t={t} />
       <NewsletterSection t={t} />
     </main>
 
