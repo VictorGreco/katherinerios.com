@@ -44,7 +44,6 @@ function DonwloadsContentSection({ t }) {
     <section id="ebooks">
         <Grid 
             container 
-            spacing={12}   
             justifyContent="center"   
             alignItems="center"
             className={styles.container}

@@ -21,16 +21,18 @@ function StrategiesSection({ t }) {
     <section id="strategy">
         <Grid 
             container 
-            spacing={12}   
             justifyContent="center"   
             alignItems="start"
+            className={styles.container}
         > 
             <Grid 
                 item
-                xs={12} 
-                md={4}
+                xs={12}
+                md={12}
+                lg={6}
                 justifyContent="center" 
                 alignItems="center"
+                className={styles.Box}
             > 
                 <h1 className={styles.MainTitleWrapper}>
                     <span>{t('landing_page.strategies.investments.titlePart1')}</span>
@@ -46,10 +48,10 @@ function StrategiesSection({ t }) {
             <Grid             
                 item
                 xs={12}
-                md={4}
+                lg={6}
                 justifyContent="center"
                 alignItems="start"
-                className={styles.QuestionsWrapper}
+                className={`${styles.QuestionsWrapper} ${styles.Box}`}
             > 
                 {questions.map((question) => {
                     return <p className={styles.Questions} key={question}>{t(question)}</p>
