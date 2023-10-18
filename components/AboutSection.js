@@ -17,8 +17,9 @@ function AboutSection({ t }) {
         > 
             <Grid 
                 item
-                xs={12}
-                md={6}
+                xs={12} 
+                md={12}
+                lg={8}
                 justifyContent="end"
                 alignItems="end"
                 className={styles.LeftBox}
@@ -40,7 +41,8 @@ function AboutSection({ t }) {
             <Grid             
                 item
                 xs={12}
-                md={3}
+                md={12}
+                lg={4}
                 justifyContent="center"
                 alignItems="center"
                 className={styles.ImageWrapper}

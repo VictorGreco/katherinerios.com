@@ -1,11 +1,11 @@
 .AboutSection {
     margin: 100px 0 0 0;
-    height: 570px;
 }
 .LeftBox {
     padding: 0 80px 0 0;
     background: rgba(155, 156, 197, 0.10);
     min-height: 450px;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -13,6 +13,7 @@
 .TitleWrapper {
     text-align: end;
     margin: 30px 0 0 0;
+    max-width: 720px;
 }
 
 .TitleWave {
@@ -22,6 +23,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    max-width: 720px;
 }
 
 .TitleIntro {
@@ -32,6 +34,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    max-width: 720px;
 }
 
 .Subtitle {
@@ -43,6 +46,7 @@
     font-weight: 700;
     line-height: normal;
     margin: 0 0 30px 0;
+    max-width: 720px;
 }
 
 .ParagraphBold {
@@ -54,7 +58,8 @@
     font-weight: 700;
     line-height: normal;
     margin: 0 0 30px 0;
-    width: 75%;
+    width: 100%;
+    max-width: 720px;
 }
 
 .GenericParagraph {
@@ -66,10 +71,33 @@
     font-weight: 300;
     line-height: normal;
     margin: 0 0 30px 0;
-    width: 75%;
+    width: 100%;
+    max-width: 720px;
 }
 
 .ImageWrapper {
-    height: 570px;
+    height: 519px;
     width: auto;
+}
+
+@media only screen and (max-width: 1199px) {
+    .LeftBox {
+        padding: 40px;
+        align-items: center;
+    }
+    .ImageWrapper {
+        display: none;
+    }
+
+    .TitleWrapper,
+    .TitleIntro,
+    .Subtitle,
+    .ParagraphBold,
+    .GenericParagraph  {
+        text-align: start;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
 }

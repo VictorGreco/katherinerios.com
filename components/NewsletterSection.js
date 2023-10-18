@@ -23,6 +23,7 @@ function NewsletterSection({ t }) {
                 xs={12} 
                 md={12}
                 lg={5}
+                xl={4}
                 justifyContent="center" 
                 alignItems="center"
                 className={styles.NewsletterGridElement}
@@ -42,6 +43,7 @@ function NewsletterSection({ t }) {
                 xs={12}
                 md={12}
                 lg={6}
+                xl={4}
                 justifyContent="center"
                 alignItems="space-between"
                 className={styles.NewsletterGridElement}
