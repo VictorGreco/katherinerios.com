@@ -70,3 +70,36 @@
     font-weight: 400;
     line-height: normal;
 }
+
+@media only screen and (max-width: 1199px) {
+    .NewsletterGridElement {
+        padding: 40px;
+    }
+
+    .titleWrapper,
+    .title,
+    .title2,
+    .subtitle, 
+    .body {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .NewsletterImage {
+        width: 100%;
+        height: auto;
+    }
+    .NewsletterGridElement {
+        padding: 40px;
+    }
+
+    .titleWrapper,
+    .title,
+    .title2,
+    .subtitle, 
+    .body {
+        text-align: start;
+    }
+
+}

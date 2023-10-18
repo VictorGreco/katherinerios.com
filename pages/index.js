@@ -1,6 +1,8 @@
 import { useTranslation } from 'next-i18next'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
+import Grid from '@mui/material/Grid';
+
 import IntrocutionSection from '../components/IntroductionSection';
 import DrawerAppBar from '../components/DrawerAppBar';
 import StrategiesSection from '../components/StrategiesSection';
@@ -9,14 +11,12 @@ import AboutSection from '../components/AboutSection';
 import OpinionsSection from '../components/OpinionsSection';
 
 import NewsletterSection from '../components/NewsletterSection';
-import Footer from '../components/Footer';
 
 
-export default function Home() {
-  const { t } = useTranslation();
+export default function Home({ t }) {
 
   return (
-    <main>
+    <>
       <IntrocutionSection t={t} />
       <DrawerAppBar t={t} />
       <StrategiesSection t={t} />
@@ -24,9 +24,7 @@ export default function Home() {
       <AboutSection t={t} />
       <OpinionsSection t={t} />
       <NewsletterSection t={t} />
-      <Footer t={t} />
-    </main>
-
+    </>
   )
 }
 

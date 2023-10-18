@@ -21,7 +21,8 @@ function NewsletterSection({ t }) {
             <Grid 
                 item
                 xs={12} 
-                md={4}
+                md={12}
+                lg={5}
                 justifyContent="center" 
                 alignItems="center"
                 className={styles.NewsletterGridElement}
@@ -39,7 +40,8 @@ function NewsletterSection({ t }) {
             <Grid             
                 item
                 xs={12}
-                md={4}
+                md={12}
+                lg={6}
                 justifyContent="center"
                 alignItems="space-between"
                 className={styles.NewsletterGridElement}
