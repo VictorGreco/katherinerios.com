@@ -20,7 +20,7 @@ export default function Home({ t }) {
       {/* <IntrocutionSection t={t} /> */}
       {/* <DrawerAppBar t={t} /> */}
       {/* <StrategiesSection t={t} /> */}
-      {/* <DonwloadsContentSection t={t} /> */}
+      <DonwloadsContentSection t={t} />
       <AboutSection t={t} />
       {/* <OpinionsSection t={t} /> */}
       <NewsletterSection t={t} />

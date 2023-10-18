@@ -47,6 +47,7 @@ function DonwloadsContentSection({ t }) {
             spacing={12}   
             justifyContent="center"   
             alignItems="center"
+            className={styles.container}
         > 
             <Grid
                 item
@@ -83,12 +84,12 @@ function DonwloadsContentSection({ t }) {
                             <Grid
                                 item
                                 xs={12} 
-                                md={4}
+                                md={6}
                                 sx={{ display: 'flex' }}
                                 justifyContent="center"
                                 alignItems="center"
                                 flexDirection='column'
-                                className={`${styles.Box} ${content.mainBoxStyles}`}
+                                className={`${styles.Box} ${content.mainBoxStyles} ${index % 2 !== 0 ? styles.paddingBox : ""}`}
                             >
                                 <img
                                     className={styles.MainImage}
@@ -105,10 +106,10 @@ function DonwloadsContentSection({ t }) {
                             <Grid 
                                 item
                                 xs={12} 
-                                md={4}
+                                md={6}
                                 justifyContent="center"
                                 alignItems="center"
-                                className={`${styles.Box}`}
+                                className={`${styles.Box} ${index % 2 === 0 ? styles.paddingBox : ""}`}
                             > 
                                 <Image
                                     className={styles.SideImage}
