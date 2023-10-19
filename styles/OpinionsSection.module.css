@@ -1,6 +1,6 @@
 .SectionWrapper {
     background: gray;
-    padding: 100px 200px 200px 100px;
+    padding: 100px 100px 200px 0;
     background: linear-gradient(to left, rgba(0,0,0,0.2), 100%, transparent), center / cover no-repeat  url('/statics/opinionsSectionImage.png');
 }
 
@@ -51,7 +51,7 @@
     background: rgba(87, 98, 102, 0.80);
     padding: 30px;
     margin: 20px 0!important;
-    max-width: 300px;
+    max-width: 450px;
 }
 
 .sectionWrapper {

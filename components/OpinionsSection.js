@@ -20,6 +20,8 @@ const opinions = [
     }
 ]
 
+const commentBoxes = [opinions, opinions, opinions, opinions, opinions];
+
 
 function OpinionsSection({ t }) {
   return (
@@ -49,31 +51,35 @@ function OpinionsSection({ t }) {
                 justifyContent="center"
                 alignItems="center"
             >
-                <Grid 
-                    container
-                    justifyContent="center"
-                    alignItems="center"
-                    flexWrap='wrap'
-                >
-                    <Carousel autoPlay={true} stopAutoPlayOnHover={true} animation={'slide'} swipe={true} indicators={true} cycleNavigation={true} interval={10000} duration={1000} className={styles.caroussel} sx={ {width: '100vw'} }>
-                        {opinions.map((opinion) => {
-                            return (
-                                <Grid
-                                    key={opinion.author}            
-                                    item
-                                    xs={12}
-                                    md={6}
-                                    justifyContent="center"
-                                    alignItems="center"
-                                    className={styles.OpinionWrapper}
-                                >
-                                    <p className={styles.Testimony}>{t(opinion.testimony)}</p>
-                                    <p className={styles.Author}>{t(opinion.author)}</p>
-                                </Grid>
-                            )
-                        })}
-                    </Carousel>
-                </Grid>
+                <Carousel autoPlay={true} stopAutoPlayOnHover={true} animation={'slide'} swipe={false} indicators={false} cycleNavigation={true} interval={30000} duration={30000} className={styles.caroussel} sx={ {width: '100vw'} }>
+                    {commentBoxes.map((commentBoxe) => {
+                        return (
+                            <Grid 
+                                container
+                                justifyContent="space-around"
+                                alignItems="start"
+                                flexWrap='wrap'
+                            >
+                                    {commentBoxe.map((opinion) => {
+                                        return (
+                                            <Grid
+                                                key={opinion.author}            
+                                                item
+                                                xs={12}
+                                                md={3}
+                                                justifyContent="center"
+                                                alignItems="center"
+                                                className={styles.OpinionWrapper}
+                                            >
+                                                <p className={styles.Testimony}>{t(opinion.testimony)}</p>
+                                                <p className={styles.Author}>{t(opinion.author)}</p>
+                                            </Grid>
+                                        )
+                                    })}
+                            </Grid>
+                        )
+                    })}
+                </Carousel>
 
             </Grid>  
         </Grid>

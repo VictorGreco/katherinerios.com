@@ -79,7 +79,7 @@
 
 .caroussel {
     height: 100%;
-    background: linear-gradient(to left, rgba(0,0,0,0.5), 40%, transparent), left / cover no-repeat  url('/statics/strategies_image.png');
+    background: linear-gradient(to left, rgba(0,0,0,0.5), 50%, transparent), left / cover no-repeat  url('/statics/cover.webp');
 }
 
 .sectionWrapper {
@@ -119,7 +119,7 @@
     }
 
     .caroussel {
-        background: linear-gradient(to right, rgba(0,0,0,0.5), 40%, transparent), center / cover no-repeat  url('/statics/12.png');
+        background: linear-gradient(to right, rgba(0,0,0,0.5), 40%, transparent), left / cover no-repeat  url('/statics/cover.webp');
 
     }
 
