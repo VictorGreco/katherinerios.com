@@ -23,7 +23,7 @@ export default function Home({ t }) {
       <NewsletterSection t={t} />
       <DonwloadsContentSection t={t} />
       <AboutSection t={t} />
-      <NewsletterSection t={t} />
+      <NewsletterSection t={t} isLinkedSection={true} />
       <OpinionsSection t={t} />
     </>
   )

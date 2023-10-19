@@ -9,9 +9,9 @@ import CtaButton from '../components/CtaButton';
 import styles from '../styles/NewsletterSection.module.css';
 
 
-function NewsletterSection({ t }) {
+function NewsletterSection({ t, isLinkedSection }) {
   return (
-    <section id="newsletter" className={styles.sectionWrapper}>
+    <section id={isLinkedSection ? "newsletter" : ""} className={styles.sectionWrapper}>
         <Grid 
             container 
             justifyContent="center"   
