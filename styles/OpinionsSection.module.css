@@ -48,7 +48,7 @@
 .OpinionWrapper {
     background: rgba(87, 98, 102, 0.80);
     padding: 30px;
-    margin: 20px
+    margin: 20px!important;
 }
 
 .sectionWrapper {
@@ -70,7 +70,7 @@
 
     .OpinionWrapper {
         padding: 10px;
-        margin: 10px
+        margin: 10px!important;
     }
 
     .Title,
