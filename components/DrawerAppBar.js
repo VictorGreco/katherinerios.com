@@ -91,7 +91,7 @@ export default function DrawerAppBar({ t, window }) {
             </IconButton>
             <Box sx={{ display: { xs: 'none', lg: 'flex', justifyContent: 'center', width: '100%' } }}>
               {navItems.map((item) => (
-                <a href={item.link}>
+                <a href={item.link} key={item.link}>
                   <Button key={item.name} sx={{ color: '#fff', marginRight: '40px' }}>
                       {t(item.name)}
                     </Button>
