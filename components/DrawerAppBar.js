@@ -78,18 +78,18 @@ export default function DrawerAppBar({ t, window }) {
   return (
     <section>
       <Box sx={{ display: 'flex' }}>
-        <AppBar component="nav" position='static' color='primary'>
+        <AppBar component="nav" position='fixed' sx={{ backgroundColor: '#2D2E51' }}>
           <Toolbar>
             <IconButton
               color="inherit"
               aria-label="open drawer"
               edge="start"
               onClick={handleDrawerToggle}
-              sx={{ mr: 2, display: { sm: 'none' } }}
+              sx={{ mr: 2, display: { lg: 'none' } }}
             >
               <MenuIcon />
             </IconButton>
-            <Box sx={{ display: { xs: 'none', sm: 'flex', justifyContent: 'center', width: '100%' } }}>
+            <Box sx={{ display: { xs: 'none', lg: 'flex', justifyContent: 'center', width: '100%' } }}>
               {navItems.map((item) => (
                 <a href={item.link}>
                   <Button key={item.name} sx={{ color: '#fff', marginRight: '40px' }}>
@@ -111,7 +111,7 @@ export default function DrawerAppBar({ t, window }) {
               keepMounted: true, // Better open performance on mobile.
             }}
             sx={{
-              display: { xs: 'block', sm: 'none' },
+              display: { xs: 'block', mr: 'none' },
               '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
             }}
           >
