@@ -78,7 +78,7 @@ export default function DrawerAppBar({ t, window }) {
   return (
     <section>
       <Box sx={{ display: 'flex' }} className='desktop-nav'>
-        <AppBar component="nav" position='static' sx={{ backgroundColor: '#2D2E51' }}>
+        <AppBar component="nav" position='fixed' sx={{ backgroundColor: '#2D2E51' }}>
           <Toolbar>
             <IconButton
               color="inherit"
