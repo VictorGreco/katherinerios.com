@@ -27,23 +27,23 @@
           }
         },
         "downloads": {
-          "mainTitile": "DESCARGA GRATIS LAS GUÍAS",
-          "mainSubtitle": "Estas guías te ayudarán a conocer el proceso de compra, venta y alquiler en España",
+          "mainTitile": "DESCARGA LAS GUÍAS GRATIS",
+          "mainSubtitle": "Estas guías te ayudarán a conocer el proceso de compraventa y alquiler en España",
           "contents": {
             "content1": {
               "title": "¿Listo para comprar tu primera casa?",
-              "subtitle": "Responde 7 preguntas y descúbrelo",
-              "ctaButtonText": "¡DESCARGA LA GUÍA AQUÍ!"
+              "subtitle": "7 preguntas que deberías responder",
+              "ctaButtonText": "¡DESCARGAR GUÍA!"
             },
             "content2": {
               "title": "10 errores que cometen los compradores",
-              "subtitle": "¡Uno de estos errores pone en riesgo tu patrimonio!",
-              "ctaButtonText": "¡DESCARGA LA GUÍA AQUÍ!"
+              "subtitle": "Uno de estos errores pone en riesgo tu patrimonio",
+              "ctaButtonText": "¡DESCARGAR GUÍA!"
             },
             "content3": {
               "title": "¿Listo para comprar tu primera casa?",
-              "subtitle": "Responde 7 preguntas y descúbrelo",
-              "ctaButtonText": "¡DESCARGA LA GUÍA AQUÍ!"
+              "subtitle": "7 preguntas que deberías responder",
+              "ctaButtonText": "¡DESCARGAR GUÍA!"
             }
           }
         },
@@ -80,11 +80,11 @@
             "title": "Newsletter",
             "title2": " inmobiliaria",
             "subtitle": "Recibe información en tu correo",
-            "body": "Comprar, vender o alquilar un inmueble pueden ser procesos complicados, permíteme ayudarte con consejos breves y prácticos hasta que estés preparado para acompañarte en el siguiente paso.",
-            "ctaButton": "QUIERO RECIBER MÁS INFORMACIÓN"
+            "body": "Comprar, vender o alquilar pueden ser procesos complicados. Registrate para recibir consejos breves y prácticos.",
+            "ctaButton": "SUSCRIBIRME"
         },
         "footer": {
-          "copy": "All Rights reserverd 2023 ©"
+          "copy": "Todos los derechos reservados 2023 ©"
         }
     }
 }

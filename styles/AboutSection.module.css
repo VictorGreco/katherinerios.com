@@ -15,7 +15,7 @@
 
 .TitleWave {
     color: #000;
-    font-family: La Belle Aurore;
+    font-family: 'La Belle Aurore', cursive;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -26,7 +26,7 @@
 .TitleIntro {
     color: #000;
     text-align: right;
-    font-family: Inknut Antiqua;
+    font-family: 'Inknut Antiqua', serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -37,7 +37,7 @@
 .Subtitle {
     color: #E69CA3;
     text-align: right;
-    font-family: Inknut Antiqua;
+    font-family: 'Inknut Antiqua', serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -49,7 +49,7 @@
 .ParagraphBold {
     color: #2D2E51;
     text-align: right;
-    font-family: Aleo;
+    font-family: 'Aleo', serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -62,7 +62,7 @@
 .GenericParagraph {
     color: #2D2E51;
     text-align: right;
-    font-family: Aleo;
+    font-family: 'Aleo', serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
@@ -73,7 +73,7 @@
 }
 
 .ImageWrapper {
-    height: 519px;
+    height: 633px;
     width: auto;
 }
 
@@ -96,9 +96,15 @@
     .ParagraphBold,
     .GenericParagraph  {
         text-align: start;
+        line-height: 50px;
     }
 }
 
 @media only screen and (max-width: 600px) {
-
+    .LeftBox {
+        align-items: start;
+    }
+    .sectionWrapper {
+        margin-top: 0px;
+    }
 }

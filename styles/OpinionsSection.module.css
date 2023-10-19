@@ -9,7 +9,7 @@
 .Title {
     color: #FFF;
     text-align: right;
-    font-family: Inknut Antiqua;
+    font-family: 'Inknut Antiqua', serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -19,7 +19,7 @@
 .Subtitle {
     color: #FFF;
     text-align: right;
-    font-family: La Belle Aurore;
+    font-family: 'La Belle Aurore', cursive;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -28,7 +28,7 @@
 
 .Testimony {
     color: #FFF;
-    font-family: Aleo;
+    font-family: 'Aleo', serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -37,7 +37,7 @@
 
 .Author {
     color: #E69CA3;
-    font-family: Aleo;
+    font-family: 'Aleo', serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -57,7 +57,7 @@
 
 @media only screen and (max-width: 1199px) {
     .SectionWrapper {
-        padding: 20px;
+        padding: 10px;
     }
 }
 
@@ -68,8 +68,12 @@
 
 @media only screen and (max-width: 600px) {
 
+    .sectionWrapper {
+        margin-top: 0px;
+    }
+
     .OpinionWrapper {
-        padding: 10px;
+        padding: 20px;
         margin: 10px!important;
     }
 

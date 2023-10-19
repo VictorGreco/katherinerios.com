@@ -14,7 +14,7 @@
 .CoolName {
     color: #E69CA3;
     text-align: center;
-    font-family: La Belle Aurore;
+    font-family: 'La Belle Aurore', cursive;
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
@@ -26,7 +26,7 @@
 .CoolSurname {
     color: rgba(230, 156, 163, 0.30);
     text-align: center;
-    font-family: Inknut Antiqua;
+    font-family: 'Inknut Antiqua', serif;
     font-size: 96px;
     font-style: normal;
     font-weight: 300;
@@ -50,6 +50,10 @@
 
 
 @media only screen and (max-width: 600px) {
+    .sectionWrapper {
+        margin-top: 0px;
+    }
+    
     .container {
         display: none;
     }

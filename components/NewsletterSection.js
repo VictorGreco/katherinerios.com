@@ -21,7 +21,7 @@ function NewsletterSection({ t, isLinkedSection }) {
             <Grid 
                 item
                 xs={12} 
-                md={12}
+                md={5}
                 lg={5}
                 xl={5}
                 justifyContent="center" 
@@ -41,7 +41,7 @@ function NewsletterSection({ t, isLinkedSection }) {
             <Grid             
                 item
                 xs={12}
-                md={12}
+                md={6}
                 lg={6}
                 xl={5}
                 justifyContent="center"

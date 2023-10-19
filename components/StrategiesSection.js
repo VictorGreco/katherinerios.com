@@ -2,6 +2,8 @@
 import Image from 'next/image';
 
 import Grid from '@mui/material/Grid';
+import Carousel from 'react-material-ui-carousel'
+
 
 import CtaButton from '../components/CtaButton';
 
@@ -16,6 +18,51 @@ const questions = [
 ]
 
 
+const items = [
+    // {
+    //     type: 'full_image',
+    //     imageSrc: "landing_page.strategies.investments.ctaButtonText",
+    //     gridSize: {
+    //         default: 12,
+    //     }
+    // },
+    {
+        type: 'cta_text_box',
+        h1: ['landing_page.strategies.investments.titlePart1', 'landing_page.strategies.investments.titlePowerWord', 'landing_page.strategies.investments.titlePart2'],
+        p: "landing_page.strategies.investments.subtitle",
+        buttonText: "landing_page.strategies.investments.ctaButtonText",
+        gridSize: {
+            default: 12,
+            lg: 6
+        }
+    },
+    {
+        type: 'cta_text_box',
+        h1: ['landing_page.strategies.investments.titlePart1', 'landing_page.strategies.investments.titlePowerWord', 'landing_page.strategies.investments.titlePart2'],
+        p: "landing_page.strategies.investments.subtitle",
+        buttonText: "landing_page.strategies.investments.ctaButtonText",
+        gridSize: {
+            default: 12,
+            lg: 6
+        }
+    }
+]
+
+const CtaTextBox = ({item, t}) => {
+    return (
+        <>
+            <h1 className={styles.MainTitleWrapper}>
+                <span>{t(item.h1[0])}</span>
+                <span className={styles.PowerWord}>{t(item.h1[1])}</span>
+                <span>{t(item.h1[2])}</span>
+            </h1>
+
+            <p className={styles.Subtitle}>{t(item.p)}</p>
+            <CtaButton className={styles.StrategiesCtaButton} text={t(item.buttonText)}/>
+        </>
+    )
+}
+
 function StrategiesSection({ t }) {
   return (
     <section id="strategy" className={styles.sectionWrapper}>
@@ -25,24 +72,29 @@ function StrategiesSection({ t }) {
             alignItems="start"
             className={styles.container}
         > 
-            <Grid 
-                item
-                xs={12}
-                md={12}
-                lg={6}
-                justifyContent="center" 
-                alignItems="center"
-            > 
-                <h1 className={styles.MainTitleWrapper}>
-                    <span>{t('landing_page.strategies.investments.titlePart1')}</span>
-                    <span className={styles.PowerWord}>{t('landing_page.strategies.investments.titlePowerWord')}</span>
-                    <span>{t('landing_page.strategies.investments.titlePart2')}</span>
-                </h1>
+                <Carousel autoPlay={false} stopAutoPlayOnHover={true} animation={'slide'} swipe={true} indicators={false} cycleNavigation={true} duration={1000} className={styles.caroussel} sx={ {width: '100vw'} }>
+                    {
+                        items.map( (item, i) => {
+                            return (
+                                 <Grid
+                                    key={i}
+                                    item
+                                    xs={item.gridSize.default}
+                                    md={item.gridSize.default}
+                                    lg={item.gridSize.lg || item.gridSize.default}
+                                    justifyContent="center" 
+                                    alignItems="center"
+                                    className='grid'
+                                    > 
+                                        {item.type === 'cta_text_box' ? 
+                                        <CtaTextBox item={item} t={t} /> : 
+                                        <></>}
+                                    </Grid>
+                            )
+                        })
+                    }
+                </Carousel>
 
-                <p className={styles.Subtitle}>{t('landing_page.strategies.investments.subtitle')}</p>
-                <CtaButton className={styles.StrategiesCtaButton} text={t('landing_page.strategies.investments.ctaButtonText')}/>
-
-            </Grid>
 
             {/* <Grid             
                 item

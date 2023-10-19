@@ -1,7 +1,7 @@
 .MainTitle {
     color: #E69CA3;
     text-align: center;
-    font-family: Inknut Antiqua;
+    font-family: 'Inknut Antiqua', serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -12,7 +12,7 @@
 .MainSubtitle {
     color: #2D2E51;
     text-align: center;
-    font-family: Aleo;
+    font-family: 'Aleo', serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -23,7 +23,7 @@
 .ContentMainTitle {
     color: #2D2E51;
     text-align: center;
-    font-family: Aleo;
+    font-family: 'Aleo', serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -34,7 +34,7 @@
 .ContentMainSubtitle {
     color: #2D2E51;
     text-align: center;
-    font-family: Aleo;
+    font-family: 'Aleo', serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 300;
@@ -72,7 +72,7 @@
     flex-shrink: 0;
     background: #2D2E51;
     color: #FFF;
-    font-family: Aleo;
+    font-family: 'Aleo', serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -128,12 +128,23 @@
 
 
 @media only screen and (max-width: 600px) {
-    .MainTitle,
+    .sectionWrapper {
+        margin-top: 0px;
+    }
+
+    .MainTitle {
+        text-align: start;
+        line-height: 50px;
+        margin: 0;
+    }
+
     .MainSubtitle {
         text-align: start;
+        line-height: 50px;
     }
     .Box {
         height: 350px;
+        padding: 5px;
     }
     
 }

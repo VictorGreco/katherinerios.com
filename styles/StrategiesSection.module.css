@@ -1,7 +1,7 @@
 .MainTitleWrapper {
     color: #000;
     text-align: center;
-    font-family: Inknut Antiqua;
+    font-family: 'Inknut Antiqua', serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 300;
@@ -10,7 +10,7 @@
 
 .PowerWord {
     color: #E69CA3;
-    font-family: Inknut Antiqua;
+    font-family: 'Inknut Antiqua', serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 300;
@@ -20,7 +20,7 @@
 .Subtitle {
     color: #2D2E51;
     text-align: center;
-    font-family: Aleo;
+    font-family: 'Aleo', serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -34,16 +34,17 @@
     flex-shrink: 0;
     background: #2D2E51;
     color: #FFF;
-    font-family: Aleo;
+    font-family: 'Aleo', serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 20px;
 }
 
 .Questions {
     color: #2D2E51;
-    font-family: Aleo;
+    font-family: 'Aleo', serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -56,16 +57,18 @@
     padding: 20px;
 }
 
-.container {
-    padding: 20px;
-}
-
 .QuestionsWrapper {
     padding-left: 200px;
 }
 
 .sectionWrapper {
-    margin-top: 50px;
+}
+
+.caroussel div div div div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -76,6 +79,10 @@
     .Box {
         padding: 0;
     }
+
+    .caroussel div div div div div {
+        padding: 20px;
+    }
 }
 
 @media only screen and (max-width: 899px) {
@@ -84,9 +91,20 @@
 
 
 @media only screen and (max-width: 600px) {
+    .sectionWrapper {
+        margin-top: 0px;
+    }
+    
     .Subtitle,
-    .MainTitleWrapper {
+    .MainTitleWrapper,
+    .PowerWord {
         text-align: start;
+        font-size: 32px;
+        line-height: 50px; /* 166.667% */
+    }
+
+    .caroussel div div div div div {
+        padding: 10px;
     }
 
 
