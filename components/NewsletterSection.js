@@ -11,7 +11,7 @@ import styles from '../styles/NewsletterSection.module.css';
 
 function NewsletterSection({ t }) {
   return (
-    <section id="newsletter">
+    <section id="newsletter" className={styles.sectionWrapper}>
         <Grid 
             container 
             justifyContent="center"   
@@ -23,7 +23,7 @@ function NewsletterSection({ t }) {
                 xs={12} 
                 md={12}
                 lg={5}
-                xl={4}
+                xl={5}
                 justifyContent="center" 
                 alignItems="center"
                 className={styles.NewsletterGridElement}
@@ -43,7 +43,7 @@ function NewsletterSection({ t }) {
                 xs={12}
                 md={12}
                 lg={6}
-                xl={4}
+                xl={5}
                 justifyContent="center"
                 alignItems="space-between"
                 className={styles.NewsletterGridElement}

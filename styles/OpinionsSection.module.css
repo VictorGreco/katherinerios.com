@@ -1,9 +1,10 @@
 .SectionWrapper {
-    margin: 100px 0 0 0;
-    height: 830px;
     background: gray;
     padding: 0 100px 0 100px;
-    background: url('/statics/opinionsSectionImage.png'), lightgray -0.381px -105.143px / 100.044% 117.033% no-repeat;}
+    background-image: url('/statics/opinionsSectionImage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .Title {
     color: #FFF;
@@ -45,8 +46,35 @@
 }
 
 .OpinionWrapper {
-    width: 400px;
-    height: 250px;
     background: rgba(87, 98, 102, 0.80);
     padding: 30px;
+    margin: 20px
+}
+
+.sectionWrapper {
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .SectionWrapper {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 899px) {
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .OpinionWrapper {
+        padding: 10px;
+        margin: 10px
+    }
+
+    .Title,
+    .Subtitle {
+        display: none;
+    }
 }

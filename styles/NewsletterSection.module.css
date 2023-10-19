@@ -1,6 +1,3 @@
-.NewsletterSection {
-    margin: 100px 0 0 0;
-}
 .NewsletterGridElement {
     text-align: center;
 }
@@ -71,9 +68,13 @@
     line-height: normal;
 }
 
+.sectionWrapper {
+    margin-top: 50px;
+}
+
 @media only screen and (max-width: 1199px) {
     .NewsletterGridElement {
-        padding: 40px;
+        padding: 20px;
     }
 
     .titleWrapper,
@@ -91,7 +92,7 @@
         height: auto;
     }
     .NewsletterGridElement {
-        padding: 40px;
+        padding: 20px;
     }
 
     .titleWrapper,

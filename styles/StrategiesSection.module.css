@@ -6,7 +6,6 @@
     font-style: normal;
     font-weight: 300;
     line-height: 80px; /* 166.667% */
-    margin: 100px 0 30px 0;
 }
 
 .PowerWord {
@@ -42,11 +41,6 @@
     line-height: normal;
 }
 
-.QuestionsWrapper {
-    margin: 150px 0 0px 0;
-
-}
-
 .Questions {
     color: #2D2E51;
     font-family: Aleo;
@@ -55,14 +49,23 @@
     font-weight: 400;
     line-height: normal;
     margin: 30px 0 30px 0;
+    text-align: start;
 }
 
 .Box {
-    padding: 40px;
+    padding: 20px;
 }
 
 .container {
-    padding: 40px;
+    padding: 20px;
+}
+
+.QuestionsWrapper {
+    padding-left: 200px;
+}
+
+.sectionWrapper {
+    margin-top: 50px;
 }
 
 @media only screen and (max-width: 1199px) {

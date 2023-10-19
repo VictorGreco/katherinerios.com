@@ -41,7 +41,7 @@ const contents = [
 
 function DonwloadsContentSection({ t }) {
   return (
-    <section id="ebooks">
+    <section id="ebooks" className={styles.sectionWrapper}>
         <Grid 
             container 
             justifyContent="center"   

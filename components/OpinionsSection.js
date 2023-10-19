@@ -21,7 +21,7 @@ const opinions = [
 
 function OpinionsSection({ t }) {
   return (
-    <section id="experiance">
+    <section id="experiance" className={styles.sectionWrapper}>
         <Grid 
             container
             justifyContent="center"
@@ -50,6 +50,7 @@ function OpinionsSection({ t }) {
                     container
                     justifyContent="space-around"
                     alignItems="start"
+                    flexWrap='wrap'
                 >
                     {opinions.map((opinion) => {
                         return (
@@ -57,7 +58,8 @@ function OpinionsSection({ t }) {
                                 key={opinion.author}            
                                 item
                                 xs={12}
-                                md={3}
+                                md={5}
+                                xl={3}
                                 justifyContent="center"
                                 alignItems="center"
                                 className={styles.OpinionWrapper}

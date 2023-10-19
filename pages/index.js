@@ -20,10 +20,11 @@ export default function Home({ t }) {
       {/* <IntrocutionSection t={t} /> */}
       <DrawerAppBar t={t} />
       <StrategiesSection t={t} />
+      <NewsletterSection t={t} />
       <DonwloadsContentSection t={t} />
       <AboutSection t={t} />
-      {/* <OpinionsSection t={t} /> */}
       <NewsletterSection t={t} />
+      <OpinionsSection t={t} />
     </>
   )
 }

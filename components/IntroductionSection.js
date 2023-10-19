@@ -12,12 +12,13 @@ function IntroductionSection({ t }) {
         <Grid 
             container
             justifyContent="space-between"
-            alignItems="center"
+            alignItems="start"
+            className={styles.container}
         > 
             <Grid 
                 item
                 xs={12}
-                md={8}
+                md={9}
                 justifyContent="center" 
                 alignItems="center"
             > 

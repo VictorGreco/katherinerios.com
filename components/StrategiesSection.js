@@ -18,7 +18,7 @@ const questions = [
 
 function StrategiesSection({ t }) {
   return (
-    <section id="strategy">
+    <section id="strategy" className={styles.sectionWrapper}>
         <Grid 
             container 
             justifyContent="center"   
@@ -32,7 +32,6 @@ function StrategiesSection({ t }) {
                 lg={6}
                 justifyContent="center" 
                 alignItems="center"
-                className={styles.Box}
             > 
                 <h1 className={styles.MainTitleWrapper}>
                     <span>{t('landing_page.strategies.investments.titlePart1')}</span>
@@ -45,7 +44,7 @@ function StrategiesSection({ t }) {
 
             </Grid>
 
-            <Grid             
+            {/* <Grid             
                 item
                 xs={12}
                 lg={6}
@@ -56,7 +55,7 @@ function StrategiesSection({ t }) {
                 {questions.map((question) => {
                     return <p className={styles.Questions} key={question}>{t(question)}</p>
                 })}
-            </Grid>
+            </Grid> */}
         </Grid>
     </section>
 
