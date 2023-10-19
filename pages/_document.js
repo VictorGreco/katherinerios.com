@@ -10,6 +10,7 @@ export default function Document() {
 
         <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&family=La+Belle+Aurore&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Inknut+Antiqua:wght@700&family=La+Belle+Aurore&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300;700&display=swap" rel="stylesheet" />
       </Head>
       <body>
         <Main />

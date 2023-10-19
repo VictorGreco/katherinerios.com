@@ -80,15 +80,63 @@
           "opinions": {
             "opinion1": {
               "testimony": "\"Me encanta la gente que sirve, que da lo mejor de sí para dejar contento al cliente. Eres la mejor Realtor que he tenido.\"",
-              "author": "– Rafael Armas ★★★★★"
+              "author": "– Juan Pérez ★★★★★"
             },
             "opinion2": {
               "testimony": "\"Lo mejor de que me ayudaras a comprar mi casa es que no me siento como una cliente, sino como una amiga a la que siempre quieres ayudar.\"",
-              "author": "– Rosaura Sánchez ★★★★★"
+              "author": "– María García ★★★★★"
             },
             "opinion3": {
               "testimony": "\"Vender mi casa estando fuera de mi país y saber que tu te preocupabas por cada detalle y me mantenias informada, no tiene precio\"",
-              "author": "– Eglyana Hernandez ★★★★★"
+              "author": "– Pedro López ★★★★★"
+            },
+            "opinion4": {
+              "testimony": "\"Katy ha sido increíble en todo el proceso. Siempre estuvo dispuesta a escuchar y encontró exactamente lo que estaba buscando.\"",
+              "author": "– Ana Rodríguez ★★★★★"
+            },
+            "opinion5": {
+              "testimony": "\"Estoy muy agradecido por el excelente servicio de Katy en la compra de mi primer piso. Fue una verdadera profesional!\"",
+              "author": "– Luis Martínez ★★★★★"
+            },
+            "opinion6": {
+              "testimony": "\"Katy hizo que la inversión en propiedades fuera un proceso sencillo. Me ayudó a ahorrar bastante dinero.\"",
+              "author": "– Laura Fernández ★★★★★"
+            },
+            "opinion7": {
+              "testimony": "\"Gracias a Katy, he realizado 2 inversiones muy exitosas. Muchas gracias!\"",
+              "author": "– Carlos González ★★★★★"
+            },
+            "opinion8": {
+              "testimony": "\"Katy es una chica super profesional y educada. Nos hizo el proceso muy ameno con su sonrisa.\"",
+              "author": "– Paula Sánchez ★★★★★"
+            },
+            "opinion9": {
+              "testimony": "\"Estoy encantado con el servicio que Katy me proporcionó. Se tomó el tiempo para entender mis necesidades y deseos.\"",
+              "author": "– Daniel Torres ★★★★★"
+            },
+            "opinion10": {
+              "testimony": "\"Una gran profesional! Nos encontró un alquiler enseguida. Estamos muy contentos con nuestro pisito.\"",
+              "author": "– Isabel Ramírez ★★★★★"
+            },
+            "opinion11": {
+              "testimony": "\"Avisame cuando te llegue la botella de vino, muchas gracias por tu ayuda!\"",
+              "author": "– David Hernández ★★★★★"
+            },
+            "opinion12": {
+              "testimony": "\"La paciencia que nos tuvo Katy fué insuperable. Siempre estuvo disponible para responder a mis preguntas y preocupaciones.\"",
+              "author": "– Marta Ruiz ★★★★★"
+            },
+            "opinion13": {
+              "testimony": "\"Contaré con Katy para mis futuras inversiones.\"",
+              "author": "– Javier Vargas ★★★★★"
+            },
+            "opinion14": {
+              "testimony": "\"Sincera, educada, trabajadora y con ganas de dar el mejor servicio.\"",
+              "author": "– Carmen Jiménez ★★★★★"
+            },
+            "opinion15": {
+              "testimony": "\"Agradezco el dominio de Katy de las nuevas tecnologías. Consiguió encontrarnos el mejor precio por el piso que estabamos buscando.\"",
+              "author": "– Alejandro Castro ★★★★★"
             }
           }
         },

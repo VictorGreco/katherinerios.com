@@ -5,22 +5,78 @@ import Carousel from 'react-material-ui-carousel'
 
 import styles from '../styles/OpinionsSection.module.css';
 
-const opinions = [
-    {
-        "testimony": "landing_page.experiance.opinions.opinion1.testimony",
-        "author": "landing_page.experiance.opinions.opinion1.author"
-    },
-    {
-        "testimony": "landing_page.experiance.opinions.opinion2.testimony",
-        "author": "landing_page.experiance.opinions.opinion2.author"
-    },
-    {
-        "testimony": "landing_page.experiance.opinions.opinion3.testimony",
-        "author": "landing_page.experiance.opinions.opinion3.author"
-    }
-]
-
-const commentBoxes = [opinions, opinions, opinions, opinions, opinions];
+const commentBoxes = [
+    [
+        {
+            "testimony": "landing_page.experiance.opinions.opinion1.testimony",
+            "author": "landing_page.experiance.opinions.opinion1.author"
+        },
+        {
+            "testimony": "landing_page.experiance.opinions.opinion2.testimony",
+            "author": "landing_page.experiance.opinions.opinion2.author"
+        },
+        {
+            "testimony": "landing_page.experiance.opinions.opinion3.testimony",
+            "author": "landing_page.experiance.opinions.opinion3.author"
+        }
+    ],
+    [
+        {
+            "testimony": "landing_page.experiance.opinions.opinion4.testimony",
+            "author": "landing_page.experiance.opinions.opinion4.author"
+        },
+        {
+            "testimony": "landing_page.experiance.opinions.opinion5.testimony",
+            "author": "landing_page.experiance.opinions.opinion5.author"
+        },
+        {
+            "testimony": "landing_page.experiance.opinions.opinion6.testimony",
+            "author": "landing_page.experiance.opinions.opinion6.author"
+        }
+    ],
+    [
+        {
+            "testimony": "landing_page.experiance.opinions.opinion7.testimony",
+            "author": "landing_page.experiance.opinions.opinion7.author"
+        },
+        {
+            "testimony": "landing_page.experiance.opinions.opinion8.testimony",
+            "author": "landing_page.experiance.opinions.opinion8.author"
+        },
+        {
+            "testimony": "landing_page.experiance.opinions.opinion9.testimony",
+            "author": "landing_page.experiance.opinions.opinion9.author"
+        }
+    ],
+    [
+        {
+            "testimony": "landing_page.experiance.opinions.opinion10.testimony",
+            "author": "landing_page.experiance.opinions.opinion10.author"
+        },
+        {
+            "testimony": "landing_page.experiance.opinions.opinion11.testimony",
+            "author": "landing_page.experiance.opinions.opinion11.author"
+        },
+        {
+            "testimony": "landing_page.experiance.opinions.opinion12.testimony",
+            "author": "landing_page.experiance.opinions.opinion12.author"
+        }
+    ],
+    [
+        {
+            "testimony": "landing_page.experiance.opinions.opinion13.testimony",
+            "author": "landing_page.experiance.opinions.opinion13.author"
+        },
+        {
+            "testimony": "landing_page.experiance.opinions.opinion14.testimony",
+            "author": "landing_page.experiance.opinions.opinion14.author"
+        },
+        {
+            "testimony": "landing_page.experiance.opinions.opinion15.testimony",
+            "author": "landing_page.experiance.opinions.opinion15.author"
+        }
+    ]
+];
 
 
 function OpinionsSection({ t }) {
