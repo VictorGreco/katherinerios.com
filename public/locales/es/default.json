@@ -7,7 +7,7 @@
             "ebooks": "EBOOKS",
             "blog": "BLOG",
             "aboutme": "SOBRE MI",
-            "experiance": "EXPERIENCIAS",
+            "experiance": "OPINIONES",
             "newsletter": "NEWSLETTER"
           }  
         },
@@ -17,13 +17,29 @@
             "titlePowerWord": "INVERTIR ",
             "titlePart2": "PERO NO SABES POR DÓNDE EMPEZAR?",
             "subtitle": "Te ofrezco una asesoría 100% gratuita y sin compromiso",
-            "ctaButtonText": "SÍ, QUIERO QUE ME AYUDES",
-            "retoricQuestions": {
-              "question1": "¿Por qué debería invertir en bienes raíces?",
-              "question2": "¿Cuándo es el mejor momento para invertir?",
-              "question3": "¿Cuánto debería de invertir para empezar?",
-              "question4": "¿Dónde es más rentable invertir?"
-            }
+            "ctaButtonText": "SÍ, QUIERO INVERTIR"
+          },
+          "rents": {
+            "titlePart1": "¿ESTÁS BUSCANDO UN ",
+            "titlePowerWord": "HOGAR ",
+            "titlePart2": "PERO TE PREOCUPA LA ZONA?",
+            "subtitle": "Dejanos ayudarte a pagar lo menos posible por el alquiler",
+            "ctaButtonText": "AGENDA UNA LLAMADA"
+          },
+          "sells": {
+            "titlePart1": "¿TE GUSTARÍA ",
+            "titlePowerWord": "RENTABILIZAR ",
+            "titlePart2": "TU VIVIENDA?",
+            "subtitle": "Te conseguimos la mejor estrategia posible",
+            "ctaButtonText": "SÍ, QUIERO ASESORÍA"
+          }
+        },
+        "faqs" : {
+          "retoricQuestions": {
+            "question1": "¿Por qué debería invertir en bienes raíces?",
+            "question2": "¿Cuándo es el mejor momento para invertir?",
+            "question3": "¿Cuánto debería de invertir para empezar?",
+            "question4": "¿Dónde es más rentable invertir?"
           }
         },
         "downloads": {

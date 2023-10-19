@@ -61,14 +61,27 @@
     padding-left: 200px;
 }
 
-.sectionWrapper {
-}
+/* .caroussel {
+    background-image: url('/statics/introduction_image.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: linear-gradient(to right, transparent, mistyrose);
+} */
 
-.caroussel div div div div div {
+.caroussel div div div div div:not(.grid) {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+}
+
+.grid {
+
+}
+
+.caroussel {
+    background: linear-gradient(to left, rgba(255,255,255,0.8), 100%, transparent), left / contain no-repeat  url('/statics/introduction_image.webp'), right / cover no-repeat  url('/statics/opinionsSectionImage.png');
 }
 
 @media only screen and (max-width: 1199px) {
