@@ -90,8 +90,15 @@ export default function DrawerAppBar({ t, window }) {
               <MenuIcon />
             </IconButton>
             <Box sx={{ display: { xs: 'none', lg: 'flex', justifyContent: 'center', width: '100%' } }} className='mobile-nav'>
+              <Image 
+                src="/statics/logo_alternate.svg"
+                alt="A descriptive image alt text"
+                width={35}
+                height={35}
+                loading="lazy"
+              />
               {navItems.map((item) => (
-                <a href={item.link} key={item.link}>
+                <a href={item.link} key={item.link} >
                   <Button key={item.name} sx={{ color: '#2D2E51', marginRight: '40px' }}>
                       {t(item.name)}
                     </Button>
