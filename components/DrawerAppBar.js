@@ -78,7 +78,7 @@ export default function DrawerAppBar({ t, window }) {
   return (
     <section>
       <Box sx={{ display: 'flex' }} className='desktop-nav'>
-        <AppBar component="nav" position='sticky' sx={{ backgroundColor: '#2D2E51' }}>
+        <AppBar component="nav" position='fixed' sx={{ backgroundColor: '#FFF', color: '#2D2E51' }}>
           <Toolbar>
             <IconButton
               color="inherit"
@@ -92,7 +92,7 @@ export default function DrawerAppBar({ t, window }) {
             <Box sx={{ display: { xs: 'none', lg: 'flex', justifyContent: 'center', width: '100%' } }} className='mobile-nav'>
               {navItems.map((item) => (
                 <a href={item.link} key={item.link}>
-                  <Button key={item.name} sx={{ color: '#fff', marginRight: '40px' }}>
+                  <Button key={item.name} sx={{ color: '#2D2E51', marginRight: '40px' }}>
                       {t(item.name)}
                     </Button>
                 </a>

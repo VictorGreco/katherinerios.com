@@ -18,8 +18,8 @@ export default function Home({ t }) {
   return (
     <>
       {/* <IntrocutionSection t={t} /> */}
-      <StrategiesSection t={t} />
       <DrawerAppBar t={t} />
+      <StrategiesSection t={t} />
       <NewsletterSection t={t} />
       <DonwloadsContentSection t={t} />
       <AboutSection t={t} />

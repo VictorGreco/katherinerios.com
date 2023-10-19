@@ -1,5 +1,5 @@
 .MainTitleWrapper {
-    color: #000;
+    color: #FFFFFF;
     text-align: center;
     font-family: 'Inknut Antiqua', serif;
     font-size: 48px;
@@ -18,7 +18,7 @@
 }
 
 .Subtitle {
-    color: #2D2E51;
+    color: #FFFFFF;
     text-align: center;
     font-family: 'Aleo', serif;
     font-size: 24px;
@@ -42,6 +42,10 @@
     margin-bottom: 20px;
 }
 
+.StrategiesCtaButtonAlternate {
+    background: #E69CA3;
+}
+
 .Questions {
     color: #2D2E51;
     font-family: 'Aleo', serif;
@@ -61,30 +65,32 @@
     padding-left: 200px;
 }
 
-/* .caroussel {
-    background-image: url('/statics/introduction_image.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: linear-gradient(to right, transparent, mistyrose);
-} */
-
 .caroussel div div div div div:not(.grid) {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: end;
     justify-content: center;
-
+    height: 100%;
 }
 
 .grid {
-
+    padding-right: 20px;
 }
 
 .caroussel {
-    background: linear-gradient(to left, rgba(255,255,255,0.8), 100%, transparent), left / contain no-repeat  url('/statics/introduction_image.webp'), right / cover no-repeat  url('/statics/opinionsSectionImage.png');
+    height: 100%;
+    background: linear-gradient(to left, rgba(0,0,0,0.5), 40%, transparent), left / cover no-repeat  url('/statics/strategies_image.png');
+}
+
+.sectionWrapper {
+    height: 700px;
+    margin-top: 56px;
 }
 
 @media only screen and (max-width: 1199px) {
+    .grid {
+        padding-right: 0;
+    }
     .QuestionsWrapper {
         display: none;
     }
@@ -104,16 +110,17 @@
 
 
 @media only screen and (max-width: 600px) {
-    .sectionWrapper {
-        margin-top: 0px;
-    }
-    
     .Subtitle,
     .MainTitleWrapper,
     .PowerWord {
         text-align: start;
         font-size: 32px;
         line-height: 50px; /* 166.667% */
+    }
+
+    .caroussel {
+        background: linear-gradient(to right, rgba(0,0,0,0.5), 40%, transparent), center / cover no-repeat  url('/statics/12.png');
+
     }
 
     .caroussel div div div div div {

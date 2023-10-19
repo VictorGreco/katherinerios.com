@@ -20,33 +20,30 @@ const questions = [
 
 const items = [
     {
-        type: 'cta_text_box',
         h1: ['landing_page.strategies.investments.titlePart1', 'landing_page.strategies.investments.titlePowerWord', 'landing_page.strategies.investments.titlePart2'],
         p: "landing_page.strategies.investments.subtitle",
         buttonText: "landing_page.strategies.investments.ctaButtonText",
         gridSize: {
             default: 12,
-            lg: 6
+            lg: 5
         }
     },
     {
-        type: 'cta_text_box',
         h1: ['landing_page.strategies.rents.titlePart1', 'landing_page.strategies.rents.titlePowerWord', 'landing_page.strategies.rents.titlePart2'],
         p: "landing_page.strategies.rents.subtitle",
         buttonText: "landing_page.strategies.rents.ctaButtonText",
         gridSize: {
             default: 12,
-            lg: 6
+            lg: 5
         }
     },
     {
-        type: 'cta_text_box',
         h1: ['landing_page.strategies.sells.titlePart1', 'landing_page.strategies.sells.titlePowerWord', 'landing_page.strategies.sells.titlePart2'],
         p: "landing_page.strategies.sells.subtitle",
         buttonText: "landing_page.strategies.sells.ctaButtonText",
         gridSize: {
             default: 12,
-            lg: 6
+            lg: 5
         }
     }
 ]
@@ -61,7 +58,7 @@ const CtaTextBox = ({item, t}) => {
             </h1>
 
             <p className={styles.Subtitle}>{t(item.p)}</p>
-            <CtaButton className={styles.StrategiesCtaButton} text={t(item.buttonText)}/>
+            <CtaButton className={`${styles.StrategiesCtaButton} ${styles.StrategiesCtaButtonAlternate}`} text={t(item.buttonText)}/>
         </>
     )
 }
@@ -74,8 +71,9 @@ function StrategiesSection({ t }) {
             justifyContent="center"   
             alignItems="start"
             className={styles.container}
+            sx={{height: '100%'}}
         > 
-                <Carousel autoPlay={true} stopAutoPlayOnHover={true} animation={'slide'} swipe={true} indicators={true} cycleNavigation={true} interval={10000} duration={1000} className={styles.caroussel} sx={ {width: '100vw'} }>
+                <Carousel autoPlay={true} stopAutoPlayOnHover={false} animation={'slide'} swipe={true} indicators={false} cycleNavigation={true} interval={10000} duration={1000} className={styles.caroussel} sx={ {width: '100vw'} }>
                     {
                         items.map( (item, i) => {
                             return (
@@ -89,9 +87,7 @@ function StrategiesSection({ t }) {
                                     alignItems="center"
                                     className={styles.grid}
                                     > 
-                                        {item.type === 'cta_text_box' ? 
-                                        <CtaTextBox item={item} t={t} /> : 
-                                        <></>}
+                                        <CtaTextBox item={item} t={t} />
                                     </Grid>
                             )
                         })

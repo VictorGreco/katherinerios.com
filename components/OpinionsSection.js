@@ -1,5 +1,7 @@
 
 import Grid from '@mui/material/Grid';
+import Carousel from 'react-material-ui-carousel'
+
 
 import styles from '../styles/OpinionsSection.module.css';
 
@@ -34,6 +36,7 @@ function OpinionsSection({ t }) {
                 md={12}
                 justifyContent="end" 
                 alignItems="center"
+                className={styles.TitleWrapper}
             > 
                 <h1 className={styles.Title}>{t('landing_page.experiance.title')}</h1>
                 <h3 className={styles.Subtitle}>{t('landing_page.experiance.subtitle')}</h3>
@@ -48,27 +51,28 @@ function OpinionsSection({ t }) {
             >
                 <Grid 
                     container
-                    justifyContent="space-around"
-                    alignItems="start"
+                    justifyContent="center"
+                    alignItems="center"
                     flexWrap='wrap'
                 >
-                    {opinions.map((opinion) => {
-                        return (
-                            <Grid
-                                key={opinion.author}            
-                                item
-                                xs={12}
-                                md={5}
-                                xl={3}
-                                justifyContent="center"
-                                alignItems="center"
-                                className={styles.OpinionWrapper}
-                            >
-                                <p className={styles.Testimony}>{t(opinion.testimony)}</p>
-                                <p className={styles.Author}>{t(opinion.author)}</p>
-                            </Grid>
-                        )
-                    })}
+                    <Carousel autoPlay={true} stopAutoPlayOnHover={true} animation={'slide'} swipe={true} indicators={true} cycleNavigation={true} interval={10000} duration={1000} className={styles.caroussel} sx={ {width: '100vw'} }>
+                        {opinions.map((opinion) => {
+                            return (
+                                <Grid
+                                    key={opinion.author}            
+                                    item
+                                    xs={12}
+                                    md={6}
+                                    justifyContent="center"
+                                    alignItems="center"
+                                    className={styles.OpinionWrapper}
+                                >
+                                    <p className={styles.Testimony}>{t(opinion.testimony)}</p>
+                                    <p className={styles.Author}>{t(opinion.author)}</p>
+                                </Grid>
+                            )
+                        })}
+                    </Carousel>
                 </Grid>
 
             </Grid>  
