@@ -22,7 +22,7 @@ export default function Home({ t }) {
       <AboutSection t={t} />
       <NewsletterSection t={t} isLinkedSection={true} />
       <OpinionsSection t={t} />
-      <SpeedDial />
+      {/* <SpeedDial /> */}
     </>
   )
 }
