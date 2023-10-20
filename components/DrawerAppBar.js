@@ -25,10 +25,6 @@ const navItems = [
       "link": "#ebooks"
     },
     {
-      "name": "landing_page.introduction.menu.blog",
-      "link": "#blog"
-    },
-    {
       "name": "landing_page.introduction.menu.aboutme",
       "link": "#aboutme"
     },
@@ -39,7 +35,11 @@ const navItems = [
     {
       "name": "landing_page.introduction.menu.newsletter",
       "link": "#newsletter"
-    }
+    },
+    {
+      "name": "landing_page.introduction.menu.blog",
+      "link": "#blog"
+    },
   ];
 
 export default function DrawerAppBar({ t, window }) {

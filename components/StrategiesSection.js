@@ -58,7 +58,7 @@ const CtaTextBox = ({item, t}) => {
             </h1>
 
             <p className={styles.Subtitle}>{t(item.p)}</p>
-            <CtaButton className={`${styles.StrategiesCtaButton} ${styles.StrategiesCtaButtonAlternate}`} text={t(item.buttonText)}/>
+            <CtaButton className={`${styles.StrategiesCtaButton} ${styles.StrategiesCtaButtonAlternate}`} text={t(item.buttonText)} onCLickHandler={() => { window.location.replace('https://calendly.com/tecnicas-de-estudio/vamos-a-conocernos') }}/>
         </>
     )
 }
