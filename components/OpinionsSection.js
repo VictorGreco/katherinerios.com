@@ -108,9 +108,10 @@ function OpinionsSection({ t }) {
                 alignItems="center"
             >
                 <Carousel autoPlay={true} stopAutoPlayOnHover={true} animation={'slide'} swipe={false} indicators={false} cycleNavigation={true} interval={30000} duration={30000} className={styles.caroussel} sx={ {width: '100vw'} }>
-                    {commentBoxes.map((commentBoxe) => {
+                    {commentBoxes.map((commentBoxe, index) => {
                         return (
-                            <Grid 
+                            <Grid
+                                key={index}
                                 container
                                 justifyContent="space-around"
                                 alignItems="start"

@@ -1,6 +1,9 @@
 {
     "landing_page": {
-        "test": "Español",
+        "thankyou": {
+          "message": "Gracias por suscribirte a nuestra newsletter",
+          "redirect": "Serás redirigido a la pagina principal en 5 segundos..."
+        },
         "introduction": {
           "menu": {
             "strategy": "ESTRATEGIAS",
