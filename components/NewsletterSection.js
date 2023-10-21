@@ -54,7 +54,10 @@ function NewsletterSection({ t, isLinkedSection }) {
                 </h3>
                 <h5 className={styles.subtitle}>{t('landing_page.newsletter.subtitle')}</h5>
                 <p className={styles.body}>{t('landing_page.newsletter.body')}</p>
-                <CtaButton className={styles.NewsletterCtaButton} text={t('landing_page.newsletter.ctaButton')} onCLickHandler={() => window.location.replace('https://8mclbfeh9nj.typeform.com/to/ync1PLTf')}/>
+                <CtaButton 
+                    className={styles.NewsletterCtaButton} 
+                    text={t('landing_page.newsletter.ctaButton')} 
+                    onCLickHandler={() => window.location.replace('https://share-eu1.hsforms.com/1osS-e0SWTXu873OgVD5vmA2dfvor')}/>
             </Grid>
         </Grid>
     </section>
