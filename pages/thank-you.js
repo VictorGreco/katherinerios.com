@@ -12,13 +12,13 @@ import { useEffect } from 'react';
 
 export default function Home({ t }) {
 
-  // useEffect(() => {
-  //   if (typeof window !== 'undefined') {
-  //     setTimeout(() => {
-  //       window.location.href = '/';
-  //     }, 5000);
-  //   }
-  // }, [])
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setTimeout(() => {
+        window.location.href = '/';
+      }, 5000);
+    }
+  }, [])
 
   return (
     <>
