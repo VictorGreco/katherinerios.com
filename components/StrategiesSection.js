@@ -20,6 +20,15 @@ const questions = [
 
 const items = [
     {
+        h1: ['landing_page.strategies.sells.titlePart1', 'landing_page.strategies.sells.titlePowerWord', 'landing_page.strategies.sells.titlePart2'],
+        p: "landing_page.strategies.sells.subtitle",
+        buttonText: "landing_page.strategies.sells.ctaButtonText",
+        gridSize: {
+            default: 12,
+            lg: 5
+        }
+    },
+    {
         h1: ['landing_page.strategies.investments.titlePart1', 'landing_page.strategies.investments.titlePowerWord', 'landing_page.strategies.investments.titlePart2'],
         p: "landing_page.strategies.investments.subtitle",
         buttonText: "landing_page.strategies.investments.ctaButtonText",
@@ -32,15 +41,6 @@ const items = [
         h1: ['landing_page.strategies.rents.titlePart1', 'landing_page.strategies.rents.titlePowerWord', 'landing_page.strategies.rents.titlePart2'],
         p: "landing_page.strategies.rents.subtitle",
         buttonText: "landing_page.strategies.rents.ctaButtonText",
-        gridSize: {
-            default: 12,
-            lg: 5
-        }
-    },
-    {
-        h1: ['landing_page.strategies.sells.titlePart1', 'landing_page.strategies.sells.titlePowerWord', 'landing_page.strategies.sells.titlePart2'],
-        p: "landing_page.strategies.sells.subtitle",
-        buttonText: "landing_page.strategies.sells.ctaButtonText",
         gridSize: {
             default: 12,
             lg: 5
@@ -73,7 +73,7 @@ function StrategiesSection({ t }) {
             className={styles.container}
             sx={{height: '100%'}}
         > 
-                <Carousel autoPlay={true} stopAutoPlayOnHover={false} animation={'slide'} swipe={true} indicators={false} cycleNavigation={true} interval={10000} duration={1000} className={styles.caroussel} sx={ {width: '100vw'} }>
+                <Carousel autoPlay={false} stopAutoPlayOnHover={false} animation={'slide'} swipe={false} indicators={false} cycleNavigation={true} interval={10000} duration={1000} className={styles.caroussel} sx={ {width: '100vw'} }>
                     {
                         items.map( (item, i) => {
                             return (

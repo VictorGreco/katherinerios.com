@@ -9,7 +9,7 @@
 }
 
 .PowerWord {
-    color: #E69CA3;
+    color: #ff7640;
     font-family: 'Inknut Antiqua', serif;
     font-size: 48px;
     font-style: normal;
@@ -23,7 +23,7 @@
     font-family: 'Aleo', serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     margin: 30px 0 30px 0;
 }
@@ -35,15 +35,16 @@
     background: #2D2E51;
     color: #FFF;
     font-family: 'Aleo', serif;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-bottom: 20px;
+    border-radius: 0;
 }
 
 .StrategiesCtaButtonAlternate {
-    background: #E69CA3;
+    background: #ff7640;
 }
 
 .Questions {
@@ -79,7 +80,7 @@
 
 .caroussel {
     height: 100%;
-    background: linear-gradient(to left, rgba(0,0,0,0.6), 50%, transparent), left / cover no-repeat  url('/statics/cover_2.webp');
+    background: linear-gradient(to left, rgba(0,0,0,0.6), 20%, rgba(0,0,0,0.3)), left / cover no-repeat  url('/statics/cover_2.webp');
 }
 
 .sectionWrapper {
@@ -110,6 +111,7 @@
 
 
 @media only screen and (max-width: 600px) {
+
     .Subtitle,
     .MainTitleWrapper,
     .PowerWord {
@@ -118,14 +120,22 @@
         line-height: 50px; /* 166.667% */
     }
 
-    .caroussel {
-        background: linear-gradient(to right, rgba(0,0,0,0.5), 40%, transparent), left / cover no-repeat  url('/statics/cover_2.webp');
+    .MainTitleWrapper,
+    .PowerWord {
+        font-size: 45px;
+        line-height: 60px; /* 166.667% */
+    }
 
+    .caroussel {
+        background: linear-gradient(to right, rgba(0,0,0,0.6), 20%, rgba(0,0,0,0.3)), left / cover no-repeat  url('/statics/cover_2.webp');
     }
 
     .caroussel div div div div div {
         padding: 10px;
     }
 
-
+    .StrategiesCtaButton {
+        height: 50px;
+        padding: 0 20px;
+    }
 }

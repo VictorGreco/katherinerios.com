@@ -18,23 +18,23 @@
           "investments": {
             "titlePart1": "¿QUIERES ",
             "titlePowerWord": "INVERTIR ",
-            "titlePart2": "PERO NO SABES POR DÓNDE EMPEZAR?",
-            "subtitle": "Te ofrezco una asesoría 100% gratuita y sin compromiso",
-            "ctaButtonText": "SÍ, QUIERO INVERTIR"
+            "titlePart2": "EN BIENES RAÍCES?",
+            "subtitle": "Te ofrezco una asesoría 100% gratuita",
+            "ctaButtonText": "¡EMPECEMOS!"
           },
           "rents": {
-            "titlePart1": "¿ESTÁS BUSCANDO UN ",
-            "titlePowerWord": "HOGAR ",
-            "titlePart2": "PERO TE PREOCUPA LA ZONA?",
-            "subtitle": "Dejanos ayudarte a pagar lo menos posible por el alquiler",
-            "ctaButtonText": "AGENDA UNA LLAMADA"
+            "titlePart1": "¿PREAPARADO PARA DEJAR DE PAGAR ",
+            "titlePowerWord": "ALQUILER ",
+            "titlePart2": "?",
+            "subtitle": "Te ayudo a comprar la casa de tus sueños",
+            "ctaButtonText": "¡LLÁMAME!"
           },
           "sells": {
-            "titlePart1": "¿TE GUSTARÍA ",
-            "titlePowerWord": "RENTABILIZAR ",
-            "titlePart2": "TU VIVIENDA?",
-            "subtitle": "Te conseguimos la mejor estrategia posible",
-            "ctaButtonText": "SÍ, QUIERO ASESORÍA"
+            "titlePart1": "¿QUIERES ",
+            "titlePowerWord": "VENDER ",
+            "titlePart2": "UN INMUEBLE?",
+            "subtitle": "¡Te garantizamos el mejor precio!",
+            "ctaButtonText": "QUIERO SABER MÁS"
           }
         },
         "faqs" : {
