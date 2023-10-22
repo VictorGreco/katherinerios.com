@@ -9,3 +9,13 @@
     justify-content: center;
     align-items: center;
 }
+
+.texts span {
+    color: #2D2E51;
+    font-family: 'Aleo', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}

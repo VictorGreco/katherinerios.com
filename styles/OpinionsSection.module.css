@@ -1,7 +1,7 @@
 .SectionWrapper {
     background: gray;
     padding: 100px 100px 200px 0;
-    background: linear-gradient(to left, rgba(0,0,0,0.2), 100%, transparent), center / cover no-repeat  url('/statics/opinionsSectionImage.png');
+    background: linear-gradient(to left, rgba(0,0,0,0.3), 100%, transparent), center / cover no-repeat  url('/statics/opinionsSectionImage.png');
 }
 
 .TitleWrapper {
@@ -48,7 +48,7 @@
 }
 
 .OpinionWrapper {
-    background: rgba(45, 46, 81, 0.9);
+    background: rgba(87, 98, 102, 1);
     padding: 30px;
     margin: 20px 0!important;
     max-width: 450px;
@@ -78,6 +78,7 @@
     .OpinionWrapper {
         padding: 20px;
         margin: 10px 10px!important;
+        max-width: 260px;
     }
 
     .TitleWrapper {

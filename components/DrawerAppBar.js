@@ -66,7 +66,7 @@ export default function DrawerAppBar({ t, window }) {
           <ListItem key={item.name} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
               <a href={item.link}>
-                <ListItemText primary={t(item.name)} />
+                <ListItemText primary={t(item.name)} className={styles.texts} />
               </a>
             </ListItemButton>
           </ListItem>
@@ -87,9 +87,19 @@ export default function DrawerAppBar({ t, window }) {
               aria-label="open drawer"
               edge="start"
               onClick={handleDrawerToggle}
-              sx={{ mr: 2, display: { lg: 'none' } }}
+              sx={{ mr: 2, display: { lg: 'none', xs: 'flex' }, width: { xs: '100%' }, justifyContent: { xs: 'space-between' } }}
             >
               <MenuIcon />
+
+              <Image 
+                src="/statics/logo_alternate_extended.svg"
+                alt="A descriptive image alt text"
+                width={100}
+                height={50}
+                loading="lazy"
+              />
+
+              <div></div>
             </IconButton>
             <Box sx={{ display: { xs: 'none', lg: 'flex', justifyContent: 'space-around', width: '100%' } }} className='mobile-nav'>
               <Image 
