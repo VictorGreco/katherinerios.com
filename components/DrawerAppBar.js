@@ -14,15 +14,21 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 
+import styles from '../styles/AppDrawer.module.css';
+
 const drawerWidth = 240;
 const navItems = [
     {
-      "name": "landing_page.introduction.menu.strategy",
-      "link": "#strategy"
+      "name": "landing_page.introduction.menu.blog",
+      "link": "/blog"
     },
     {
       "name": "landing_page.introduction.menu.ebooks",
       "link": "#ebooks"
+    },
+    {
+      "name": "landing_page.introduction.menu.newsletter",
+      "link": "#newsletter"
     },
     {
       "name": "landing_page.introduction.menu.aboutme",
@@ -33,12 +39,8 @@ const navItems = [
       "link": "#experiance"
     },
     {
-      "name": "landing_page.introduction.menu.newsletter",
-      "link": "#newsletter"
-    },
-    {
-      "name": "landing_page.introduction.menu.blog",
-      "link": "#blog"
+      "name": "landing_page.introduction.menu.strategy",
+      "link": "#strategy"
     },
   ];
 
@@ -54,8 +56,8 @@ export default function DrawerAppBar({ t, window }) {
       <Image 
         src="/statics/logo_alternate.svg"
         alt="A descriptive image alt text"
-        width={50}
-        height={50}
+        width={75}
+        height={75}
         loading="lazy"
       />
       <Divider />
@@ -89,22 +91,34 @@ export default function DrawerAppBar({ t, window }) {
             >
               <MenuIcon />
             </IconButton>
-            <Box sx={{ display: { xs: 'none', lg: 'flex', justifyContent: 'center', width: '100%' } }} className='mobile-nav'>
+            <Box sx={{ display: { xs: 'none', lg: 'flex', justifyContent: 'space-around', width: '100%' } }} className='mobile-nav'>
               <Image 
-                src="/statics/logo_alternate.svg"
+                src="/statics/logo_alternate_extended.svg"
                 alt="A descriptive image alt text"
-                width={35}
-                height={35}
+                width={200}
+                height={100}
                 loading="lazy"
               />
-              {navItems.map((item) => (
-                <a href={item.link} key={item.link} >
-                  <Button key={item.name} sx={{ color: '#2D2E51', marginRight: '40px' }}>
-                      {t(item.name)}
-                    </Button>
+              <div className={styles.TopMenuRightSide}>
+                <a href='/'>
+                  <Image 
+                    src="/statics/exp_logo.png"
+                    alt="A descriptive image alt text"
+                    width={75}
+                    height={35}
+                    loading="lazy"
+                  />
                 </a>
-     
-              ))}
+
+                {navItems.map((item) => (
+                  <a href={item.link} key={item.link} >
+                    <Button key={item.name} sx={{ color: '#2D2E51' }}>
+                        {t(item.name)}
+                      </Button>
+                  </a>
+      
+                ))}
+              </div>
             </Box>
           </Toolbar>
         </AppBar>

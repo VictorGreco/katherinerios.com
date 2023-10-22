@@ -1,0 +1,11 @@
+.TopMenuRightSide {
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+}
+
+.TopMenuRightSide a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

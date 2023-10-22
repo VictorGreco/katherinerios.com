@@ -153,5 +153,65 @@
         "footer": {
           "copy": "© 2023 KATHERINRIOS. TODOS LOS DERECHOS RESERVADOS"
         }
+    },
+    "blog": {
+      "articles": {
+        "article1" : {
+          "src": "que-es-el-seguro-de-impago",
+          "preview": {
+            "title": "¿Qué es el seguro de impago?",
+            "summary": "El seguro de impago de alquiler, es un tipo de póliza de seguro diseñada para proteger al propietario...",
+            "continueReading": "Seguir leyendo"
+          }
+        },
+        "article2" : {
+          "src": "que-es-y-como-se-calcula-el-impuesto-de-plusvalia",
+          "preview": {
+            "title": "¿Qué es el impuesto de plusvalía?",
+            "summary": "El impuesto de plusvalía es un impuesto local que grava el incremento de valor...",
+            "continueReading": "Seguir leyendo"
+          }
+        },
+        "article3" : {
+          "src": "que-es-y-como-se-calcula-el-itp",
+          "preview": {
+            "title": "¿Qué es y como se calcula el ITP?",
+            "summary": "El Impuesto sobre Transmisiones Patrimoniales (ITP) es un impuesto indirecto que grava las transmisiones de bienes y derechos...",
+            "continueReading": "Seguir leyendo"
+          }
+        },
+        "article4" : {
+          "src": "que-es-el-fenomeno-de-la-gentrificacion",
+          "preview": {
+            "title": "¿Qué es la gentrificación?",
+            "summary": "La gentrificación es un fenómeno que se refiere al proceso de transformación de un área urbana, que experimenta un cambio...",
+            "continueReading": "Seguir leyendo"
+          }
+        },
+        "article5" : {
+          "src": "cuanto-vale-mi-propiedad-en-el-mercado-actual",
+          "preview": {
+            "title": "¿Cuánto vale mi propiedad en el mercado actual?",
+            "summary": "Determinar el valor actual de una propiedad en España implica varios factores y puede requerir la asistencia de profesionales del sector...",
+            "continueReading": "Seguir leyendo"
+          }
+        },
+        "article6" : {
+          "src": "que-documentos-necesito-para-vender-un-inmueble",
+          "preview": {
+            "title": "¿Qué documentos necesito para vender un inmueble?",
+            "summary": "La venta de un inmueble en España implica una serie de trámites y la presentación de documentos tanto por parte del vendedor como por...",
+            "continueReading": "Seguir leyendo"
+          }
+        },
+        "article7" : {
+          "src": "quales-son-los-costes-asociados-a-una-venta",
+          "preview": {
+            "title": "¿Cuáles son los costes asociados a una venta?",
+            "summary": "La venta de una vivienda en España conlleva diversos gastos indispensables...",
+            "continueReading": "Seguir leyendo"
+          }
+        }
+      }
     }
 }

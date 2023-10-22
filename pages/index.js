@@ -15,7 +15,6 @@ export default function Home({ t }) {
 
   return (
     <>
-      <DrawerAppBar t={t} />
       <StrategiesSection t={t} />
       <NewsletterSection t={t} />
       <DonwloadsContentSection t={t} />
