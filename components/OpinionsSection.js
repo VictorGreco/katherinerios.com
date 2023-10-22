@@ -2,8 +2,11 @@
 import Grid from '@mui/material/Grid';
 import Carousel from 'react-material-ui-carousel'
 
+import translations from '../public/locales/es/default.json';
 
 import styles from '../styles/OpinionsSection.module.css';
+
+
 
 const commentBoxes = [
     [
@@ -80,6 +83,8 @@ const commentBoxes = [
 
 
 function OpinionsSection({ t }) {
+
+  const testimonies = Object.keys(translations.landing_page.experiance.opinions);
   return (
     <section id="experiance" className={styles.sectionWrapper}>
         <Grid 
@@ -107,8 +112,11 @@ function OpinionsSection({ t }) {
                 justifyContent="center"
                 alignItems="center"
             >
-                <Carousel autoPlay={true} stopAutoPlayOnHover={true} animation={'slide'} swipe={false} indicators={false} cycleNavigation={true} interval={30000} duration={30000} className={styles.caroussel} sx={ {width: '100vw'} }>
-                    {commentBoxes.map((commentBoxe, index) => {
+                <Carousel autoPlay={true} stopAutoPlayOnHover={false} animation={'slide'} swipe={false} indicators={false} cycleNavigation={true} interval={10000} duration={10000} className={styles.caroussel} sx={ {width: '100vw'} }>
+                    {testimonies.map((commentBoxe, index) => {
+                        const testimony = t(`landing_page.experiance.opinions.opinion${index + 1}.testimony`);
+                        const author = t(`landing_page.experiance.opinions.opinion${index + 1}.author`);
+
                         return (
                             <Grid
                                 key={index}
@@ -117,22 +125,18 @@ function OpinionsSection({ t }) {
                                 alignItems="start"
                                 flexWrap='wrap'
                             >
-                                    {commentBoxe.map((opinion) => {
-                                        return (
-                                            <Grid
-                                                key={opinion.author}            
-                                                item
-                                                xs={12}
-                                                md={3}
-                                                justifyContent="center"
-                                                alignItems="center"
-                                                className={styles.OpinionWrapper}
-                                            >
-                                                <p className={styles.Testimony}>{t(opinion.testimony)}</p>
-                                                <p className={styles.Author}>{t(opinion.author)}</p>
-                                            </Grid>
-                                        )
-                                    })}
+                                <Grid
+                                    key={author}            
+                                    item
+                                    xs={12}
+                                    md={3}
+                                    justifyContent="center"
+                                    alignItems="center"
+                                    className={styles.OpinionWrapper}
+                                >
+                                    <p className={styles.Testimony}>{testimony}</p>
+                                    <p className={styles.Author}>{author}</p>
+                                </Grid>
                             </Grid>
                         )
                     })}

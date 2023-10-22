@@ -48,7 +48,7 @@
 }
 
 .OpinionWrapper {
-    background: rgba(87, 98, 102, 0.80);
+    background: rgba(45, 46, 81, 0.9);
     padding: 30px;
     margin: 20px 0!important;
     max-width: 450px;
@@ -82,5 +82,20 @@
 
     .TitleWrapper {
         margin-bottom: 0;
+    }
+
+    .Title {
+        margin: 20px 0 0 0;
+        line-height: 50px;
+    }
+
+    .Testimony {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .Author {
+        font-weight: 400;
+        font-size: 16px;  
     }
 }

@@ -14,7 +14,7 @@ const contents = [
         "subtitle": "landing_page.downloads.contents.content1.subtitle",
         "ctaButtonText": "landing_page.downloads.contents.content1.ctaButtonText",
         "ctaButtonAction": () => {},
-        "sideImage": "/statics/downloadsContentSectionSideImage1.png",
+        "sideImage": "/statics/downloadsContentSectionSideImage1.webp",
         "mainImage": "/statics/downloadsContentSectionPlaceHolders.png",
         "mainBoxStyles": styles.MainContentWrapperPink
     },
@@ -23,7 +23,7 @@ const contents = [
         "subtitle": "landing_page.downloads.contents.content2.subtitle",
         "ctaButtonText": "landing_page.downloads.contents.content2.ctaButtonText",
         "ctaButtonAction": () => {},
-        "sideImage": "/statics/downloadsContentSectionSideImage2.png",
+        "sideImage": "/statics/downloadsContentSectionSideImage2.webp",
         "mainImage": "/statics/downloadsContentSectionPlaceHolders.png",
         "mainBoxStyles": styles.MainContentWrapperWhite
     },
@@ -32,7 +32,7 @@ const contents = [
         "subtitle": "landing_page.downloads.contents.content3.subtitle",
         "ctaButtonText": "landing_page.downloads.contents.content3.ctaButtonText",
         "ctaButtonAction": () => {},
-        "sideImage": "/statics/downloadsContentSectionSideImage3.png",
+        "sideImage": "/statics/downloadsContentSectionSideImage3.webp",
         "mainImage": "/statics/downloadsContentSectionPlaceHolders.png",
         "mainBoxStyles": styles.MainContentWrapperGrey
     }

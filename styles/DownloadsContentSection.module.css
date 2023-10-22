@@ -24,22 +24,22 @@
     color: #2D2E51;
     text-align: center;
     font-family: 'Aleo', serif;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
 }
 
 .ContentMainSubtitle {
     color: #2D2E51;
     text-align: center;
     font-family: 'Aleo', serif;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
 }
 
 .Box {
@@ -54,7 +54,8 @@
 
 .MainContentWrapperPink {
     padding: 30px;
-    background: rgba(230, 156, 163, 0.30);}
+    background: #f5f5f9;
+}
 
 .MainContentWrapperWhite {
     padding: 30px;
@@ -63,20 +64,21 @@
 
 .MainContentWrapperGrey {
     padding: 30px;
-    background: rgba(155, 156, 197, 0.10);
+    background: #f5f5f9;
 }
 
 .DownloadsContentSectionCtaButton {
     width: 75%;
     height: 80px;
     flex-shrink: 0;
-    background: #2D2E51;
+    background: #ff7640;
     color: #FFF;
     font-family: 'Aleo', serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    border-radius: 0;
 }
 
 .MainImage {
@@ -120,7 +122,7 @@
     }
 
     .MainImage {
-        width: 50%;
+        width: 80%;
         height: auto;
     }
     
