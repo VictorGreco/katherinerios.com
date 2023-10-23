@@ -90,7 +90,7 @@ function DonwloadsContentSection({ t }) {
                                 flexDirection='column'
                                 className={`${styles.Box} ${content.mainBoxStyles} ${index % 2 !== 0 ? styles.paddingBox : ""}`}
                             >
-                                <img
+                                <Image
                                     className={styles.MainImage}
                                     src={content.mainImage}
                                     width={925}

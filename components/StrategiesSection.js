@@ -4,6 +4,10 @@ import Image from 'next/image';
 import Grid from '@mui/material/Grid';
 import Carousel from 'react-material-ui-carousel'
 
+import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+
+
 
 import CtaButton from '../components/CtaButton';
 import styles from '../styles/StrategiesSection.module.css';
@@ -68,7 +72,25 @@ function StrategiesSection({ t }) {
             className={styles.container}
             sx={{height: '100%'}}
         > 
-                <Carousel autoPlay={false} stopAutoPlayOnHover={true} animation={'slide'} swipe={true} indicators={true} cycleNavigation={true} interval={10000} duration={1000} className={styles.caroussel} sx={ {width: '100vw'} }>
+                <Carousel
+                    navButtonsAlwaysVisible
+                    navButtonsProps={{          // Change the colors and radius of the actual buttons. THIS STYLES BOTH BUTTONS
+                        style: {
+                            backgroundColor: 'transparent',
+                            color: '#ff7640',
+                        }
+                    }} 
+                    autoPlay={false} 
+                    stopAutoPlayOnHover={true} 
+                    animation={'slide'} 
+                    swipe={true} 
+                    indicators={true} 
+                    cycleNavigation={true} 
+                    interval={10000} 
+                    duration={1000} 
+                    className={styles.caroussel} 
+                    sx={ {width: '100vw'} 
+                }>
                     {
                         items.map( (item, i) => {
                             return (
