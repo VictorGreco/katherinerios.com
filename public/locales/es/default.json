@@ -1,11 +1,11 @@
 {
     "landing_page": {
-      "thankyou-suscribe": {
+      "thankyou-subscribe": {
         "message": "Gracias por suscribirte a nuestra newsletter",
         "redirect": "Serás redirigido a la pagina principal en 5 segundos..."
       },
       "thankyou-download": {
-        "message": "Gracias, te llegará un correo para descargar el eBook",
+        "message": "Recibirás el ebook a tu correo",
         "redirect": "Serás redirigido a la pagina principal en 5 segundos..."
       },
       "introduction": {

@@ -1,9 +1,4 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
-
-import SpeedDial from '../components/SpeedDial';
-
-
-import NewsletterSection from '../components/NewsletterSection';
 import { Grid } from '@mui/material';
 
 import styles from '../styles/ThankYouPage.module.css';
@@ -21,19 +16,16 @@ export default function Home({ t }) {
   }, [])
 
   return (
-    <>
-      <section id='thank-you'>
-        <Grid container className={styles.containerGrid}>
-            <Grid item sx={12} className={`${styles.itemGrid} ${styles.MainTitleWrapper}`}>
-                <h1>{t('landing_page.thankyou-download.message')}</h1>
-            </Grid>
-            <Grid item sx={12} className={`${styles.itemGrid} ${styles.Subtitle}`}>
-                <h3>{t('landing_page.thankyou.redirect')}</h3>
-            </Grid>
-        </Grid>
-      </section>
-      {/* <SpeedDial /> */}
-    </>
+    <section id='thank-you'>
+      <Grid container className={styles.containerGrid}>
+          <Grid item sx={12} className={`${styles.itemGrid} ${styles.MainTitleWrapper}`}>
+              <h2>{t('landing_page.thankyou-download.message')}</h2>
+          </Grid>
+          <Grid item sx={12} className={`${styles.itemGrid} ${styles.Subtitle}`}>
+              <h3>{t('landing_page.thankyou-download.redirect')}</h3>
+          </Grid>
+      </Grid>
+    </section>
   )
 }
 
