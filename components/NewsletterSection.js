@@ -4,8 +4,6 @@ import Image from 'next/image';
 import Grid from '@mui/material/Grid';
 
 import CtaButton from '../components/CtaButton';
-
-
 import styles from '../styles/NewsletterSection.module.css';
 
 import newsletterImage from '../public/statics/newsletter_image.webp';

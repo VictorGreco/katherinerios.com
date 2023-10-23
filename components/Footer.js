@@ -3,7 +3,6 @@ import Grid from '@mui/material/Grid';
 
 import styles from '../styles/Footer.module.css';
 
-
 function FooterSection({ t }) {
   return (
     <section id="footer">

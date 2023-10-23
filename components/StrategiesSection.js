@@ -67,7 +67,7 @@ function StrategiesSection({ t, isMobile }) {
         > 
                 <Carousel
                     navButtonsAlwaysVisible
-                    navButtonsProps={{          // Change the colors and radius of the actual buttons. THIS STYLES BOTH BUTTONS
+                    navButtonsProps={{
                         style: {
                             backgroundColor: 'transparent',
                             color: '#ff7640',
