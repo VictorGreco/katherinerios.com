@@ -1,7 +1,5 @@
 .SectionWrapper {
-    background: gray;
     padding: 100px 100px 200px 0;
-    background: linear-gradient(to left, rgba(0,0,0,0.3), 100%, transparent), center / cover no-repeat  url('/statics/opinionsSectionImage.webp');
 }
 
 .TitleWrapper {
@@ -75,7 +73,6 @@
 
     .sectionWrapper {
         margin-top: 0px;
-        background: linear-gradient(to left, rgba(0,0,0,0.3), 100%, transparent), center / cover no-repeat  url('/statics/opinionsSectionImage_mobile.webp');
     }
 
     .OpinionWrapper {

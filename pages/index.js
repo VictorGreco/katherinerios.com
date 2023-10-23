@@ -13,13 +13,15 @@ import NewsletterSection from '../components/NewsletterSection';
 
 export default function Home({ t }) {
 
+  let isMobile = typeof window !== 'undefined' && window.matchMedia("(max-width: 600px)").matches ? '_mobile' : '';
+
   return (
     <>
-      <StrategiesSection t={t} />
+      <StrategiesSection t={t} isMobile={isMobile} />
       <DonwloadsContentSection t={t} />
       <AboutSection t={t} />
       <NewsletterSection t={t} isLinkedSection={true} />
-      <OpinionsSection t={t} />
+      <OpinionsSection t={t} isMobile={isMobile} />
       {/* <SpeedDial /> */}
     </>
   )

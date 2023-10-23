@@ -1,13 +1,5 @@
-
-import Image from 'next/image';
-
 import Grid from '@mui/material/Grid';
-import Carousel from 'react-material-ui-carousel'
-
-import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
-import NavigateNextIcon from '@mui/icons-material/NavigateNext';
-
-
+import Carousel from 'react-material-ui-carousel';
 
 import CtaButton from '../components/CtaButton';
 import styles from '../styles/StrategiesSection.module.css';
@@ -62,8 +54,9 @@ const CtaTextBox = ({item, t}) => {
     )
 }
 
-function StrategiesSection({ t }) {
-  return (
+function StrategiesSection({ t, isMobile }) {
+
+    return (
     <section id="strategy" className={styles.sectionWrapper}>
         <Grid 
             container 
@@ -88,9 +81,9 @@ function StrategiesSection({ t }) {
                     cycleNavigation={true} 
                     interval={10000} 
                     duration={1000} 
-                    className={styles.caroussel} 
-                    sx={ {width: '100vw'} 
-                }>
+                    className={styles.caroussel}
+                    sx={ { width: '100vw', background: `linear-gradient(to right, rgba(0,0,0,0.4), 100%, rgba(0,0,0,0.4)), left / cover no-repeat  url('/statics/cover${isMobile}.webp')` } }
+                >
                     {
                         items.map( (item, i) => {
                             return (

@@ -82,9 +82,10 @@ const commentBoxes = [
 ];
 
 
-function OpinionsSection({ t }) {
+function OpinionsSection({ t, isMobile }) {
 
   const testimonies = Object.keys(translations.landing_page.experiance.opinions);
+
   return (
     <section id="experiance" className={styles.sectionWrapper}>
         <Grid 
@@ -92,6 +93,7 @@ function OpinionsSection({ t }) {
             justifyContent="center"
             alignItems="center"
             className={styles.SectionWrapper}
+            sx={{background: `linear-gradient(to left, rgba(0,0,0,0.3), 100%, transparent), center / cover no-repeat  url('/statics/opinionsSectionImage${isMobile}.webp')`}}
         > 
             <Grid 
                 item
@@ -112,7 +114,18 @@ function OpinionsSection({ t }) {
                 justifyContent="center"
                 alignItems="center"
             >
-                <Carousel autoPlay={true} stopAutoPlayOnHover={false} animation={'slide'} swipe={false} indicators={false} cycleNavigation={true} interval={10000} duration={10000} className={styles.caroussel} sx={ {width: '100vw'} }>
+                <Carousel 
+                    autoPlay={true} 
+                    stopAutoPlayOnHover={false} 
+                    animation={'slide'} 
+                    swipe={false} 
+                    indicators={false} 
+                    cycleNavigation={true} 
+                    interval={10000} 
+                    duration={10000} 
+                    className={styles.caroussel} 
+                    sx={{width: '100vw'}}
+                >
                     {testimonies.map((commentBoxe, index) => {
                         const testimony = t(`landing_page.experiance.opinions.opinion${index + 1}.testimony`);
                         const author = t(`landing_page.experiance.opinions.opinion${index + 1}.author`);
