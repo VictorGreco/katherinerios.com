@@ -1,10 +1,14 @@
 {
     "landing_page": {
-        "thankyou": {
-          "message": "Gracias por suscribirte a nuestra newsletter",
-          "redirect": "Serás redirigido a la pagina principal en 5 segundos..."
-        },
-        "introduction": {
+      "thankyou-suscribe": {
+        "message": "Gracias por suscribirte a nuestra newsletter",
+        "redirect": "Serás redirigido a la pagina principal en 5 segundos..."
+      },
+      "thankyou-download": {
+        "message": "Gracias, te llegará un correo para descargar el eBook",
+        "redirect": "Serás redirigido a la pagina principal en 5 segundos..."
+      },
+      "introduction": {
           "menu": {
             "strategy": "ESTRATEGIAS",
             "ebooks": "EBOOKS",
