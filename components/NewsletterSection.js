@@ -8,6 +8,8 @@ import CtaButton from '../components/CtaButton';
 
 import styles from '../styles/NewsletterSection.module.css';
 
+import newsletterImage from '../public/statics/newsletter_image.webp';
+
 
 function NewsletterSection({ t, isLinkedSection }) {
   return (
@@ -29,7 +31,7 @@ function NewsletterSection({ t, isLinkedSection }) {
                 className={styles.NewsletterGridElement}
             > 
             <Image
-                src="/statics/newsletter_image.webp"
+                src={newsletterImage}
                 alt="A descriptive image alt text"
                 width={479}
                 height={464}

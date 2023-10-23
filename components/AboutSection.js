@@ -5,6 +5,8 @@ import Grid from '@mui/material/Grid';
 
 import styles from '../styles/AboutSection.module.css';
 
+import aboutWebp from '../public/statics/about.webp';
+
 
 function AboutSection({ t }) {
   return (
@@ -49,7 +51,7 @@ function AboutSection({ t }) {
             >
                 <Image
                     className={styles.ImageWrapper}
-                    src="/statics/about.webp"
+                    src={aboutWebp}
                     alt="The real state agent showing in front of a parc"
                     width={620}
                     height={450}

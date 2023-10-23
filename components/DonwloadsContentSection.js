@@ -8,14 +8,23 @@ import CtaButton from '../components/CtaButton';
 
 import styles from '../styles/DownloadsContentSection.module.css';
 
+import downloadsContentSectionSideImage1 from '../public/statics/downloadsContentSectionSideImage1.webp';
+import downloadsContentSectionSideImage2 from '../public/statics/downloadsContentSectionSideImage2.webp';
+import downloadsContentSectionSideImage3 from '../public/statics/downloadsContentSectionSideImage3.webp';
+
+import downloadsContentSectionMainImage1 from '../public/statics/downloadContents/downloadsContentSectionMainImage1.png';
+import downloadsContentSectionMainImage2 from '../public/statics/downloadContents/downloadsContentSectionMainImage2.png';
+import downloadsContentSectionMainImage3 from '../public/statics/downloadContents/downloadsContentSectionMainImage3.png';
+
+
 const contents = [
     {
         "title": "landing_page.downloads.contents.content1.title",
         "subtitle": "landing_page.downloads.contents.content1.subtitle",
         "ctaButtonText": "landing_page.downloads.contents.content1.ctaButtonText",
         "ctaButtonAction": () => window.location.href = 'https://share-eu1.hsforms.com/15Zx1VhONRay0b8_WudIEMg2dfvor',
-        "sideImage": "/statics/downloadsContentSectionSideImage1.webp",
-        "mainImage": "/statics/downloadContents/downloadsContentSectionImage1.png",
+        "sideImage": downloadsContentSectionSideImage1,
+        "mainImage": downloadsContentSectionMainImage1,
         "mainBoxStyles": styles.MainContentWrapperPink
     },
     {
@@ -23,8 +32,8 @@ const contents = [
         "subtitle": "landing_page.downloads.contents.content2.subtitle",
         "ctaButtonText": "landing_page.downloads.contents.content2.ctaButtonText",
         "ctaButtonAction": () => window.location.href = 'https://share-eu1.hsforms.com/1Ig8HpoujRYGZzXlplpM4cA2dfvor',
-        "sideImage": "/statics/downloadsContentSectionSideImage2.webp",
-        "mainImage": "/statics/downloadContents/downloadsContentSectionImage2.png",
+        "sideImage": downloadsContentSectionSideImage2,
+        "mainImage": downloadsContentSectionMainImage2,
         "mainBoxStyles": styles.MainContentWrapperWhite
     },
     {
@@ -32,8 +41,8 @@ const contents = [
         "subtitle": "landing_page.downloads.contents.content3.subtitle",
         "ctaButtonText": "landing_page.downloads.contents.content3.ctaButtonText",
         "ctaButtonAction": () => window.location.href = 'https://share-eu1.hsforms.com/1ym2RG8GESimCDAWoVew35A2dfvor',
-        "sideImage": "/statics/downloadsContentSectionSideImage3.webp",
-        "mainImage": "/statics/downloadContents/downloadsContentSectionImage3.png",
+        "sideImage": downloadsContentSectionSideImage3,
+        "mainImage": downloadsContentSectionMainImage3,
         "mainBoxStyles": styles.MainContentWrapperGrey
     }
 ]

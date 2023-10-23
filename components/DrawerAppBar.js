@@ -16,6 +16,11 @@ import Button from '@mui/material/Button';
 
 import styles from '../styles/AppDrawer.module.css';
 
+import logoAlternate from '../public/statics/logo_alternate.svg';
+import logoAlternateExtended from '../public/statics/logo_alternate_extended.svg';
+import expLogo from '../public/statics/exp_logo.png';
+
+
 const drawerWidth = 240;
 const navItems = [
     // {
@@ -54,7 +59,7 @@ export default function DrawerAppBar({ t, window }) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Image
-        src="/statics/logo_alternate.svg"
+        src={logoAlternate}
         alt="A descriptive image alt text"
         width={75}
         height={75}
@@ -92,7 +97,7 @@ export default function DrawerAppBar({ t, window }) {
               <MenuIcon />
 
               <Image 
-                src="/statics/logo_alternate_extended.svg"
+                src={logoAlternateExtended}
                 alt="A descriptive image alt text"
                 width={100}
                 height={50}
@@ -103,7 +108,7 @@ export default function DrawerAppBar({ t, window }) {
             </IconButton>
             <Box sx={{ display: { xs: 'none', lg: 'flex', justifyContent: 'space-around', width: '100%' } }} className='mobile-nav'>
               <Image 
-                src="/statics/logo_alternate_extended.svg"
+                src={logoAlternateExtended}
                 alt="A descriptive image alt text"
                 width={200}
                 height={100}
@@ -112,7 +117,7 @@ export default function DrawerAppBar({ t, window }) {
               <div className={styles.TopMenuRightSide}>
                 <a href='/'>
                   <Image 
-                    src="/statics/exp_logo.png"
+                    src={expLogo}
                     alt="A descriptive image alt text"
                     width={75}
                     height={35}
