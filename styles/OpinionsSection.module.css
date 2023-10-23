@@ -75,6 +75,7 @@
 
     .sectionWrapper {
         margin-top: 0px;
+        background: linear-gradient(to left, rgba(0,0,0,0.3), 100%, transparent), center / cover no-repeat  url('/statics/opinionsSectionImage_mobile.png');
     }
 
     .OpinionWrapper {
