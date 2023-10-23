@@ -93,8 +93,8 @@ function DonwloadsContentSection({ t }) {
                                 <img
                                     className={styles.MainImage}
                                     src={content.mainImage}
-                                    width={100}
-                                    height={100}
+                                    width={925}
+                                    height={576}
                                 />
 
                                 <h1 className={styles.ContentMainTitle}>{t(content.title)}</h1>
@@ -113,8 +113,8 @@ function DonwloadsContentSection({ t }) {
                                 <Image
                                     className={styles.SideImage}
                                     src={content.sideImage}
-                                    width={100}
-                                    height={100}
+                                    width={600}
+                                    height={500}
                                 />
                             </Grid>
 
