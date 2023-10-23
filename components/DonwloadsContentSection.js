@@ -99,7 +99,7 @@ function DonwloadsContentSection({ t }) {
 
                                 <h1 className={styles.ContentMainTitle}>{t(content.title)}</h1>
                                 <h3 className={styles.ContentMainSubtitle}>{t(content.subtitle)}</h3>
-                                <CtaButton className={styles.DownloadsContentSectionCtaButton} text={t(content.ctaButtonText)}/>
+                                <CtaButton className={styles.DownloadsContentSectionCtaButton} text={t(content.ctaButtonText)} onCLickHandler={content.ctaButtonAction}/>
 
                             </Grid>
                             <Grid 
