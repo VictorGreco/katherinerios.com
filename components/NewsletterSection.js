@@ -52,7 +52,7 @@ function NewsletterSection({ t, isLinkedSection }) {
                     <span className={styles.title}>{t('landing_page.newsletter.title')}</span>
                     <span className={styles.title2}>{t('landing_page.newsletter.title2')}</span>
                 </h3>
-                <h5 className={styles.subtitle}>{t('landing_page.newsletter.subtitle')}</h5>
+                <h4 className={styles.subtitle}>{t('landing_page.newsletter.subtitle')}</h4>
                 <p className={styles.body}>{t('landing_page.newsletter.body')}</p>
                 <CtaButton 
                     className={styles.NewsletterCtaButton} 

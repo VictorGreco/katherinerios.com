@@ -28,7 +28,7 @@ function AboutSection({ t }) {
                     <span className={styles.TitleWave}>{t('landing_page.about.title_wave')}</span>
                     <span className={styles.TitleIntro}>{t('landing_page.about.title_intro')}</span>
                 </h1>
-                <h3 className={styles.Subtitle}>{t('landing_page.about.subtitle')}</h3>
+                <h2 className={styles.Subtitle}>{t('landing_page.about.subtitle')}</h2>
                 <p className={styles.ParagraphBold}>{t('landing_page.about.paragraph_1')}</p>
                 <p className={styles.GenericParagraph}>{t('landing_page.about.paragraph_2')}</p>
                 <p className={styles.GenericParagraph}>{t('landing_page.about.paragraph_3')}</p>

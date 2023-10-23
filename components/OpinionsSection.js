@@ -102,7 +102,7 @@ function OpinionsSection({ t }) {
                 className={styles.TitleWrapper}
             > 
                 <h1 className={styles.Title}>{t('landing_page.experiance.title')}</h1>
-                <h3 className={styles.Subtitle}>{t('landing_page.experiance.subtitle')}</h3>
+                <h2 className={styles.Subtitle}>{t('landing_page.experiance.subtitle')}</h2>
             </Grid>
 
             <Grid             

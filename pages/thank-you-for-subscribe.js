@@ -27,7 +27,7 @@ export default function Home({ t }) {
               <h1>{t('landing_page.thankyou-subscribe.message')}</h1>
           </Grid>
           <Grid item sx={12} className={`${styles.itemGrid} ${styles.Subtitle}`}>
-              <h3>{t('landing_page.thankyou-subscribe.redirect')}</h3>
+              <h2>{t('landing_page.thankyou-subscribe.redirect')}</h2>
           </Grid>
       </Grid>
     </section>

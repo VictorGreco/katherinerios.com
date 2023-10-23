@@ -58,9 +58,9 @@ function DonwloadsContentSection({ t }) {
                 <h1 className={styles.MainTitle}>
                     {t('landing_page.downloads.mainTitile')}
                 </h1>
-                <h3 className={styles.MainSubtitle}>
+                <h2 className={styles.MainSubtitle}>
                     {t('landing_page.downloads.mainSubtitle')}
-                </h3>
+                </h2>
             </Grid>
 
             <Grid        
@@ -99,7 +99,7 @@ function DonwloadsContentSection({ t }) {
                                 />
 
                                 <h1 className={styles.ContentMainTitle}>{t(content.title)}</h1>
-                                <h3 className={styles.ContentMainSubtitle}>{t(content.subtitle)}</h3>
+                                <h2 className={styles.ContentMainSubtitle}>{t(content.subtitle)}</h2>
                                 <CtaButton className={styles.DownloadsContentSectionCtaButton} text={t(content.ctaButtonText)} onCLickHandler={content.ctaButtonAction}/>
 
                             </Grid>

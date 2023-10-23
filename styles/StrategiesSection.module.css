@@ -80,7 +80,7 @@
 
 .caroussel {
     height: 100%;
-    background: rgba(0,0,0,0.4), 100%, rgba(0,0,0,0.4), left / cover no-repeat  url('/statics/cover.webp');
+    background: linear-gradient(to right, rgba(0,0,0,0.4), 100%, rgba(0,0,0,0.4)), left / cover no-repeat  url('/statics/cover.webp');
 }
 
 .sectionWrapper {
@@ -126,7 +126,7 @@
     }
 
     .caroussel {
-        background: rgba(0,0,0,0.4), 100%, rgba(0,0,0,0.4), left / cover no-repeat  url('/statics/cover.webp');
+        background: linear-gradient(to right, rgba(0,0,0,0.4), 100%, rgba(0,0,0,0.4)), left / cover no-repeat  url('/statics/cover.webp');
     }
 
     .caroussel div div div div div {
