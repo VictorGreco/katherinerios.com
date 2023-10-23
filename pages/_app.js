@@ -6,7 +6,7 @@ import { useTranslation } from 'next-i18next';
 import DrawerAppBar from '../components/DrawerAppBar';
 import Footer from '../components/Footer';
 
-import styles from '../styles/globals.css';
+import styles from '../styles/globals.css'; // DO NOT REMOVE
 
 const App = ({ Component, pageProps }) => {
 
