@@ -145,6 +145,10 @@
     .Box {
         height: 350px;
         padding: 5px;
+        display: flex;
+        align-items: center;
     }
-    
+    .SideImage {
+        height: auto;
+    }
 }

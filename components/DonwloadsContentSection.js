@@ -115,8 +115,8 @@ function DonwloadsContentSection({ t }) {
                                     className={styles.SideImage}
                                     src={content.sideImage}
                                     alt="Image of a beatifull interior"
-                                    width={600}
-                                    height={500}
+                                    width={1000}
+                                    height={800}
                                 />
                             </Grid>
 
