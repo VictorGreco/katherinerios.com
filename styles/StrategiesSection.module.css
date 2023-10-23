@@ -118,6 +118,10 @@
         line-height: 50px; /* 166.667% */
     }
 
+    .Subtitle {
+        margin: 0;
+    }
+
     .MainTitleWrapper,
     .PowerWord {
         font-size: 45px;
