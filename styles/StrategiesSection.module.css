@@ -145,6 +145,6 @@
         display: flex;
         flex-direction: column!important;
         justify-content: space-between;
-        margin-top: 45px;
+        margin-top: 35px;
     }
 }
