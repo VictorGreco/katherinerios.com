@@ -1,6 +1,6 @@
+import { useEffect, useState } from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 
-import DrawerAppBar from '../components/DrawerAppBar';
 import StrategiesSection from '../components/StrategiesSection';
 import DonwloadsContentSection from '../components/DonwloadsContentSection';
 import AboutSection from '../components/AboutSection';
@@ -12,9 +12,14 @@ import NewsletterSection from '../components/NewsletterSection';
 
 
 export default function Home({ t }) {
+  const [isMobile, setIsMobile] = useState('_mobile');
 
-  let isMobile = typeof window !== 'undefined' && window.matchMedia("(max-width: 600px)").matches ? '_mobile' : '';
-
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setIsMobile(/iPhone|iPad|iPod|Android/i.test(window.navigator.userAgent) ? '_mobile' : '');
+    }
+  }, [])
+  
   return (
     <>
       <StrategiesSection t={t} isMobile={isMobile} />

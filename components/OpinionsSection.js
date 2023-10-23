@@ -86,6 +86,8 @@ function OpinionsSection({ t, isMobile }) {
 
   const testimonies = Object.keys(translations.landing_page.experiance.opinions);
 
+  console.log(isMobile);
+
   return (
     <section id="experiance" className={styles.sectionWrapper}>
         <Grid 
