@@ -126,7 +126,7 @@
     }
 
     .caroussel {
-        background: linear-gradient(to right, rgba(0,0,0,0.4), 100%, rgba(0,0,0,0.4)), left / cover no-repeat  url('/statics/cover_mobile.png');
+        background: linear-gradient(to right, rgba(0,0,0,0.4), 100%, rgba(0,0,0,0.4)), left / cover no-repeat  url('/statics/cover_mobile.webp');
     }
 
     .caroussel div div div div div {
