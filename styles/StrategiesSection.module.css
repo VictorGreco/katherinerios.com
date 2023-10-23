@@ -111,7 +111,6 @@
 
 
 @media only screen and (max-width: 600px) {
-
     .Subtitle,
     .MainTitleWrapper,
     .PowerWord {
@@ -143,6 +142,6 @@
         display: flex;
         flex-direction: column!important;
         justify-content: start;
-        margin-top: 30px;
+        margin-top: 45px;
     }
 }

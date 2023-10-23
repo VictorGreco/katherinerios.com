@@ -18,10 +18,10 @@ import styles from '../styles/AppDrawer.module.css';
 
 const drawerWidth = 240;
 const navItems = [
-    {
-      "name": "landing_page.introduction.menu.blog",
-      "link": "/blog"
-    },
+    // {
+    //   "name": "landing_page.introduction.menu.blog",
+    //   "link": "/blog"
+    // },
     {
       "name": "landing_page.introduction.menu.ebooks",
       "link": "#ebooks"

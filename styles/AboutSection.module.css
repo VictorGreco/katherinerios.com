@@ -101,6 +101,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .TitleWrapper {
+        margin-top: 75px;
+    }
     .LeftBox {
         align-items: start;
     }

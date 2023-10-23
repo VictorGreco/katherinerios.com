@@ -75,7 +75,7 @@ function StrategiesSection({ t }) {
             className={styles.container}
             sx={{height: '100%'}}
         > 
-                <Carousel autoPlay={false} stopAutoPlayOnHover={false} animation={'slide'} swipe={false} indicators={false} cycleNavigation={true} interval={10000} duration={1000} className={styles.caroussel} sx={ {width: '100vw'} }>
+                <Carousel autoPlay={false} stopAutoPlayOnHover={true} animation={'slide'} swipe={true} indicators={true} cycleNavigation={true} interval={10000} duration={1000} className={styles.caroussel} sx={ {width: '100vw'} }>
                     {
                         items.map( (item, i) => {
                             return (
