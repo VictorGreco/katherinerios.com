@@ -50,7 +50,10 @@ const CtaTextBox = ({item, t}) => {
             <p className={styles.Subtitle}>{t(item.p)}</p>
 
 
-            <CtaButton className={`${styles.StrategiesCtaButton} ${styles.StrategiesCtaButtonAlternate}`} text={t(item.buttonText)} onCLickHandler={() => { window.location.replace('https://calendly.com/tecnicas-de-estudio/vamos-a-conocernos') }}/>
+            <CtaButton 
+                className={`${styles.StrategiesCtaButton} ${styles.StrategiesCtaButtonAlternate}`} 
+                text={t(item.buttonText)} 
+                onCLickHandler={() => window.location.href ='https://calendly.com/tecnicas-de-estudio/vamos-a-conocernos'}/>
         </>
     )
 }

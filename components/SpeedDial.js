@@ -6,8 +6,6 @@ import SpeedDialIcon from '@mui/material/SpeedDialIcon';
 import SpeedDialAction from '@mui/material/SpeedDialAction';
 import FileCopyIcon from '@mui/icons-material/FileCopyOutlined';
 import SaveIcon from '@mui/icons-material/Save';
-import PrintIcon from '@mui/icons-material/Print';
-import ShareIcon from '@mui/icons-material/Share';
 
 
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
@@ -16,8 +14,8 @@ import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 const actions = [
   { icon: <FileCopyIcon />, name: 'Copy' },
   { icon: <SaveIcon />, name: 'Save' },
-  { icon: <CalendarMonthIcon />, name: 'Calendly', callback: () => window.location.replace('https://calendly.com/tecnicas-de-estudio/vamos-a-conocernos') },
-  { icon: <WhatsAppIcon />, name: 'Whatsapp', callback: () => window.location.replace('https://wa.me/message/XW3GRYK7VYFGC1') },
+  { icon: <CalendarMonthIcon />, name: 'Calendly', callback: () => window.location.href = 'https://calendly.com/tecnicas-de-estudio/vamos-a-conocernos'},
+  { icon: <WhatsAppIcon />, name: 'Whatsapp', callback: () => window.location.href = 'https://wa.me/message/XW3GRYK7VYFGC1'},
 ];
 export default function SpeedDialTooltipOpen() {
   const [open, setOpen] = React.useState(false);

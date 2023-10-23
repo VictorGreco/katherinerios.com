@@ -57,7 +57,7 @@ function NewsletterSection({ t, isLinkedSection }) {
                 <CtaButton 
                     className={styles.NewsletterCtaButton} 
                     text={t('landing_page.newsletter.ctaButton')} 
-                    onCLickHandler={() => window.location.replace('https://share-eu1.hsforms.com/1osS-e0SWTXu873OgVD5vmA2dfvor')}/>
+                    onCLickHandler={() => window.location.href = 'https://share-eu1.hsforms.com/1osS-e0SWTXu873OgVD5vmA2dfvor'}/>
             </Grid>
         </Grid>
     </section>
