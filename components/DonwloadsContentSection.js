@@ -93,6 +93,7 @@ function DonwloadsContentSection({ t }) {
                                 <Image
                                     className={styles.MainImage}
                                     src={content.mainImage}
+                                    alt="First image for the ebook"
                                     width={925}
                                     height={576}
                                 />
@@ -113,6 +114,7 @@ function DonwloadsContentSection({ t }) {
                                 <Image
                                     className={styles.SideImage}
                                     src={content.sideImage}
+                                    alt="Image of a beatifull interior"
                                     width={600}
                                     height={500}
                                 />

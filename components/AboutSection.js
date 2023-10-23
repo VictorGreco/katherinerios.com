@@ -50,6 +50,7 @@ function AboutSection({ t }) {
                 <Image
                     className={styles.ImageWrapper}
                     src="/statics/about.webp"
+                    alt="The real state agent showing in front of a parc"
                     width={620}
                     height={450}
                 />

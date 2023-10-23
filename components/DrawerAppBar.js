@@ -53,7 +53,7 @@ export default function DrawerAppBar({ t, window }) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Image 
+      <Image
         src="/statics/logo_alternate.svg"
         alt="A descriptive image alt text"
         width={75}
