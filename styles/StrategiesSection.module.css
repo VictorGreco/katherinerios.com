@@ -87,7 +87,7 @@
     height: 75vh;
     margin-top: 56px;
     animation-name: fadeRenderElement;
-    animation-duration: 2s;
+    animation-duration: 0.5s;
 }
 
 @keyframes fadeRenderElement {
