@@ -18,8 +18,7 @@ import styles from '../styles/AppDrawer.module.css';
 
 import logoAlternate from '../public/statics/logo_alternate.svg';
 import logoAlternateExtended from '../public/statics/logo_alternate_extended.svg';
-import expLogo from '../public/statics/exp_logo.png';
-
+import expLogo from '../public/statics/exp_logo.webp';
 
 const drawerWidth = 240;
 const navItems = [

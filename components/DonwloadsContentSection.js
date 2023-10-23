@@ -12,9 +12,9 @@ import downloadsContentSectionSideImage1 from '../public/statics/downloadsConten
 import downloadsContentSectionSideImage2 from '../public/statics/downloadsContentSectionSideImage2.webp';
 import downloadsContentSectionSideImage3 from '../public/statics/downloadsContentSectionSideImage3.webp';
 
-import downloadsContentSectionMainImage1 from '../public/statics/downloadContents/downloadsContentSectionMainImage1.png';
-import downloadsContentSectionMainImage2 from '../public/statics/downloadContents/downloadsContentSectionMainImage2.png';
-import downloadsContentSectionMainImage3 from '../public/statics/downloadContents/downloadsContentSectionMainImage3.png';
+import downloadsContentSectionMainImage1 from '../public/statics/downloadContents/downloadsContentSectionMainImage1.webp';
+import downloadsContentSectionMainImage2 from '../public/statics/downloadContents/downloadsContentSectionMainImage2.webp';
+import downloadsContentSectionMainImage3 from '../public/statics/downloadContents/downloadsContentSectionMainImage3.webp';
 
 
 const contents = [
