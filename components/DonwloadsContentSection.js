@@ -13,18 +13,18 @@ const contents = [
         "title": "landing_page.downloads.contents.content1.title",
         "subtitle": "landing_page.downloads.contents.content1.subtitle",
         "ctaButtonText": "landing_page.downloads.contents.content1.ctaButtonText",
-        "ctaButtonAction": () => { window.location.replace('https://share-eu1.hsforms.com/1ym2RG8GESimCDAWoVew35A2dfvor')},
+        "ctaButtonAction": () => { window.location.replace('https://share-eu1.hsforms.com/15Zx1VhONRay0b8_WudIEMg2dfvor')},
         "sideImage": "/statics/downloadsContentSectionSideImage1.webp",
-        "mainImage": "/statics/downloadsContentSectionPlaceHolders.png",
+        "mainImage": "/statics/downloadContents/downloadsContentSectionImage1.png",
         "mainBoxStyles": styles.MainContentWrapperPink
     },
     {
         "title": "landing_page.downloads.contents.content2.title",
         "subtitle": "landing_page.downloads.contents.content2.subtitle",
         "ctaButtonText": "landing_page.downloads.contents.content2.ctaButtonText",
-        "ctaButtonAction": () => { window.location.replace('https://share-eu1.hsforms.com/1ym2RG8GESimCDAWoVew35A2dfvor')},
+        "ctaButtonAction": () => { window.location.replace('https://share-eu1.hsforms.com/1Ig8HpoujRYGZzXlplpM4cA2dfvor')},
         "sideImage": "/statics/downloadsContentSectionSideImage2.webp",
-        "mainImage": "/statics/downloadsContentSectionPlaceHolders.png",
+        "mainImage": "/statics/downloadContents/downloadsContentSectionImage2.png",
         "mainBoxStyles": styles.MainContentWrapperWhite
     },
     {
@@ -33,7 +33,7 @@ const contents = [
         "ctaButtonText": "landing_page.downloads.contents.content3.ctaButtonText",
         "ctaButtonAction": () => { window.location.replace('https://share-eu1.hsforms.com/1ym2RG8GESimCDAWoVew35A2dfvor')},
         "sideImage": "/statics/downloadsContentSectionSideImage3.webp",
-        "mainImage": "/statics/downloadsContentSectionPlaceHolders.png",
+        "mainImage": "/statics/downloadContents/downloadsContentSectionImage3.png",
         "mainBoxStyles": styles.MainContentWrapperGrey
     }
 ]
