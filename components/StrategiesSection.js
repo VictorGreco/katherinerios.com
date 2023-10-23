@@ -6,17 +6,7 @@ import Carousel from 'react-material-ui-carousel'
 
 
 import CtaButton from '../components/CtaButton';
-
-
 import styles from '../styles/StrategiesSection.module.css';
-
-const questions = [
-    'landing_page.strategies.investments.retoricQuestions.question1',
-    'landing_page.strategies.investments.retoricQuestions.question2',
-    'landing_page.strategies.investments.retoricQuestions.question3',
-    'landing_page.strategies.investments.retoricQuestions.question4',
-]
-
 
 const items = [
     {
