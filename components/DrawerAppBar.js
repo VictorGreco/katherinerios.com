@@ -22,10 +22,10 @@ import expLogo from '../public/statics/exp_logo.webp';
 
 const drawerWidth = 240;
 const navItems = [
-    // {
-    //   "name": "landing_page.introduction.menu.blog",
-    //   "link": "/blog"
-    // },
+    {
+      "name": "landing_page.introduction.menu.blog",
+      "link": "/blog"
+    },
     {
       "name": "landing_page.introduction.menu.ebooks",
       "link": "#ebooks"

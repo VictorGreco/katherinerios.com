@@ -39,6 +39,14 @@ const Item = ({ t, content }) => {
   if (content.type === 'p') {
     return (<p className={styles.body}>{content.text}</p>)
   }
+  
+  if (content.type === 'pSpecial') {
+    return (<p className={`${styles.body} ${styles.bodySpecial}`}>{content.text}</p>)
+  }
+
+  if (content.type === 'pBold') {
+    return (<p className={`${styles.secondaryTitle}`}>{content.text}</p>)
+  }
 }
 
 

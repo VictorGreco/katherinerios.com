@@ -192,7 +192,22 @@
             "summary": "El impuesto de plusvalía es un impuesto local que grava el incremento de valor...",
             "continueReading": "Seguir leyendo"
           },
-          "details": []
+          "details": [
+            { "type": "img", "src": "/statics/blog/articles/que-es-y-como-se-calcula-el-impuesto-de-plusvalia/main-image.png", "alt": "test", "height": 300, "width": 300 },
+            { "type": "h1", "text": "CONCEPTO" },
+            { "type": "p", "text": "El impuesto de plusvalía es un impuesto local que grava el incremento de valor de los terrenos de naturaleza urbana cuando se transfiere la propiedad, ya sea mediante venta o herencia. La fórmula para calcular el impuesto de plusvalía puede variar según la jurisdicción, ya que las leyes y tasas específicas pueden diferir de una localidad a otra. Sin embargo, generalmente, la fórmula se basa en tres elementos clave:" },
+            { "type": "h2", "text": "1. Valor Catastral del Terreno:" },
+            { "type": "p", "text": "Este valor es determinado por las autoridades fiscales y se refiere al valor atribuido al terreno por cuestiones fiscales. Este valor puede ser actualizado periódicamente por la administración tributaria." },
+            { "type": "h2", "text": "2. Años de Posesión o Tenencia del Terreno:" },
+            { "type": "p", "text": "La plusvalía se calcula teniendo en cuenta el tiempo durante el cual el propietario ha tenido la posesión o tenencia del terreno. Cuantos más años haya sido propietario, menor será la tasa de impuesto." },
+            { "type": "h2", "text": "3. Tipo Impositivo o Tasa de Gravamen:" },
+            { "type": "p", "text": "Cada municipalidad establece su propia tasa de impuesto sobre la plusvalía. Esta tasa se aplica al valor catastral del terreno y al tiempo de posesión para calcular el impuesto." },
+            { "type": "h2", "text": "La fórmula general para el cálculo del impuesto de plusvalía es:" },
+            { "type": "pSpecial", "text": "Impuesto de Plusvalía = (Valor Catastral del Terreno) x (Tasa de Gravamen) x (Años de Posesión)" },
+            { "type": "p", "text": "Es importante señalar que la metodología exacta puede variar, y algunas municipalidades pueden tener en cuenta factores adicionales en el cálculo. Además, algunas jurisdicciones pueden ofrecer exenciones o reducciones en ciertas circunstancias, como la venta de la vivienda habitual." },
+            { "type": "p", "text": "Para obtener información precisa y actualizada sobre cómo se calcula el impuesto de plusvalía en una ubicación específica, es recomendable consultar con la administración tributaria local o buscar asesoramiento profesional de un contador o asesor fiscal." },
+            { "type": "img", "src": "/statics/blog/articles/que-es-y-como-se-calcula-el-impuesto-de-plusvalia/cta-image.png", "alt": "test", "height": 300, "width": 300  }
+          ]
         },
         "article3" : {
           "src": "que-es-y-como-se-calcula-el-itp",
@@ -201,7 +216,24 @@
             "summary": "El Impuesto sobre Transmisiones Patrimoniales (ITP) es un impuesto indirecto que grava las transmisiones de bienes y derechos...",
             "continueReading": "Seguir leyendo"
           },
-          "details": []
+          "details": [
+            { "type": "img", "src": "/statics/blog/articles/que-es-y-como-se-calcula-el-itp/main-image.png", "alt": "test", "height": 300, "width": 300 },
+            { "type": "h1", "text": "CONCEPTO" },
+            { "type": "p", "text": "El Impuesto sobre Transmisiones Patrimoniales (ITP) es un impuesto indirecto que grava las transmisiones de bienes y derechos, así como ciertos actos jurídicos documentados. En el contexto de la compra de una vivienda en España, el ITP se aplica a las transmisiones de bienes inmuebles de segunda mano, es decir, viviendas usadas." },
+            { "type": "h2", "text": "1. Cómo se Calcula el ITP en la Compra de Vivienda Usada:" },
+            { "type": "pSpecial", "text": "ITP = Tasa de ITP x Valor de la Transmisión" },
+            { "type": "p", "text": "Tasa de ITP: Varía según la comunidad autónoma en la que se encuentre la vivienda. Las tasas pueden oscilar entre el 6% y el 11%." },
+            { "type": "p", "text": "Valor de la Transmisión: Es el precio de venta de la vivienda." },
+            { "type": "h2", "text": "2. Ejemplo de Cálculo del ITP:" },
+            { "type": "p", "text": "Supongamos que estás comprando una vivienda usada por 200.000 € en una comunidad autónoma donde la tasa de ITP es del 8%." },
+            { "type": "p", "text": "ITP = 0,08 X 200.000 = 16.000 €" },
+            { "type": "p", "text": "En este ejemplo, el ITP a pagar sería de 16,000 €." },
+            { "type": "h2", "text": "3. Documentación y pago:" },
+            { "type": "p", "text": "El ITP se documenta a través de una autoliquidación presentada por el comprador ante la Administración tributaria correspondiente. El comprador es el sujeto pasivo del impuesto y es responsable de realizar el pago." },
+            { "type": "h2", "text": "4. Exenciones y Reducciones:" },
+            { "type": "p", "text": "Puede haber exenciones o reducciones en el ITP, por ejemplo, en la compra de vivienda habitual por parte de jóvenes o personas con discapacidad." },
+            { "type": "img", "src": "/statics/blog/articles/que-es-y-como-se-calcula-el-itp/cta-image.png", "alt": "test", "height": 300, "width": 300  }
+          ]
         },
         "article4" : {
           "src": "que-es-el-fenomeno-de-la-gentrificacion",
@@ -210,7 +242,24 @@
             "summary": "La gentrificación es un fenómeno que se refiere al proceso de transformación de un área urbana, que experimenta un cambio...",
             "continueReading": "Seguir leyendo"
           },
-          "details": []
+          "details": [
+            { "type": "img", "src": "/statics/blog/articles/que-es-el-fenomeno-de-la-gentrificacion/main-image.png", "alt": "test", "height": 300, "width": 300 },
+            { "type": "h1", "text": "CONCEPTO" },
+            { "type": "p", "text": "La gentrificación es un fenómeno que se refiere al proceso de transformación de un área urbana, que experimenta un cambio socioeconómico, cultural y demográfico. Este cambio suele ir acompañado de un aumento en la inversión y desarrollo inmobiliario, así como de un incremento en el valor de las propiedades." },
+            { "type": "h2", "text": "1. Mejora de la Infraestructura y Servicios:" },
+            { "type": "p", "text": "La gentrificación a menudo lleva a mejoras en la infraestructura urbana, renovación de edificios y el desarrollo de servicios públicos. Esto puede incluir nuevas calles, plazas, parques y la rehabilitación de edificios históricos." },
+            { "type": "h2", "text": "2. Dinamización Económica:" },
+            { "type": "p", "text": "La llegada de residentes de mayores ingresos puede estimular la economía local. La apertura de nuevos comercios, restaurantes y servicios de mayor gama puede atraer a más visitantes y turistas, generando oportunidades económicas." },
+            { "type": "h2", "text": "3. Aumento en el Valor de las Propiedades:" },
+            { "type": "p", "text": "La gentrificación suele ir acompañada de un aumento en el valor de las propiedades, lo que beneficia a los propietarios existentes." },
+            { "type": "h2", "text": "4. Reducción de la Delincuencia:" },
+            { "type": "p", "text": "La mejora de la infraestructura y la presencia de una población más estable económicamente pueden tener un impacto positivo en la seguridad." },
+            { "type": "h2", "text": "5. Creación de Empleo:" },
+            { "type": "p", "text": "El desarrollo económico y la apertura de nuevos negocios pueden generar oportunidades de empleo en el área, beneficiando a los residentes locales." },
+            { "type": "h2", "text": "6. Revitalización Cultural:" },
+            { "type": "p", "text": "Se fomenta la creación de espacios artísticos, galerías y eventos culturales que atraen a una audiencia diversa." },
+            { "type": "img", "src": "/statics/blog/articles/que-es-el-fenomeno-de-la-gentrificacion/cta-image.png", "alt": "test", "height": 300, "width": 300  }
+          ]
         },
         "article5" : {
           "src": "cuanto-vale-mi-propiedad-en-el-mercado-actual",
@@ -219,7 +268,21 @@
             "summary": "Determinar el valor actual de una propiedad en España implica varios factores y puede requerir la asistencia de profesionales del sector...",
             "continueReading": "Seguir leyendo"
           },
-          "details": []
+          "details": [
+            { "type": "img", "src": "/statics/blog/articles/cuanto-vale-mi-propiedad-en-el-mercado-actual/main-image.png", "alt": "test", "height": 300, "width": 300 },
+            { "type": "h1", "text": "CONCEPTO" },
+            { "type": "p", "text": "Determinar el valor actual de una propiedad en España implica varios factores y puede requerir la asistencia de profesionales del sector inmobiliario o la consulta de herramientas y servicios especializados. Aquí hay algunos enfoques que podrías considerar:" },
+            { "type": "h2", "text": "1. Tasación Profesional:" },
+            { "type": "p", "text": "Una forma precisa de determinar el valor de tu propiedad es obtener una tasación profesional. Los tasadores inmobiliarios son expertos que evalúan diversos factores, como la ubicación, el tamaño, el estado de la propiedad y las condiciones del mercado para determinar su valor." },
+            { "type": "h2", "text": "2. Consulta a Agentes Inmobiliarios:" },
+            { "type": "p", "text": "Los agentes inmobiliarios tienen un conocimiento profundo del mercado local y pueden proporcionar una estimación del valor de tu propiedad basada en ventas comparables y tendencias del mercado. Pueden ofrecer asesoramiento sobre cómo optimizar el valor de tu propiedad." },
+            { "type": "h2", "text": "3. Herramientas en Línea:" },
+            { "type": "p", "text": "Hay portales inmobiliarios y servicios de tasación en línea que ofrecen estimaciones del valor de una propiedad. Sin embargo, suelen ser algoritmos basados en datos públicos y no pueden reemplazar la evaluación de un profesional." },
+            { "type": "h2", "text": "4. Consulta con Notarios o Registradores:" },
+            { "type": "p", "text": "Los notarios y registradores pueden proporcionar información sobre las transacciones recientes en la zona, lo que puede ayudar a obtener una idea del valor actual del mercado." },
+            { "type": "pBold", "text": "Recuerda que el valor de una propiedad puede cambiar con el tiempo debido a factores del mercado, la economía y las condiciones generales. Además, el valor percibido por los compradores puede variar. Por lo tanto, es recomendable utilizar varios enfoques y obtener asesoramiento profesional antes de tomar decisiones importantes, como la venta de una propiedad." },
+            { "type": "img", "src": "/statics/blog/articles/cuanto-vale-mi-propiedad-en-el-mercado-actual/cta-image.png", "alt": "test", "height": 300, "width": 300  }
+          ]
         },
         "article6" : {
           "src": "que-documentos-necesito-para-vender-un-inmueble",
@@ -228,7 +291,35 @@
             "summary": "La venta de un inmueble en España implica una serie de trámites y la presentación de documentos tanto por parte del vendedor como por...",
             "continueReading": "Seguir leyendo"
           },
-          "details": []
+          "details": [
+            { "type": "img", "src": "/statics/blog/articles/que-documentos-necesito-para-vender-un-inmueble/main-image.png", "alt": "test", "height": 300, "width": 300 },
+            { "type": "h1", "text": "CONCEPTO" },
+            { "type": "p", "text": "La venta de un inmueble en España implica una serie de trámites y la presentación de documentos tanto por parte del vendedor como por parte del comprador. A continuación, se enumeran algunos de los documentos clave que generalmente se requieren para llevar a cabo una transacción inmobiliaria en España:" },
+            { "type": "h2", "text": "1. Escritura de Propiedad (Título de Propiedad):" },
+            { "type": "p", "text": "Este es el documento que prueba la propiedad del vendedor sobre el inmueble. Se obtiene del Registro de la Propiedad y debe estar actualizado." },
+            { "type": "h2", "text": "2. Nota Simple del Registro de la Propiedad:" },
+            { "type": "p", "text": "Es un documento oficial que proporciona información sobre la situación registral del inmueble, como la identidad del propietario, las cargas, las limitaciones, etc." },
+            { "type": "h2", "text": "3. Certificado de Eficiencia Energética:" },
+            { "type": "p", "text": "En España, es obligatorio obtener un certificado de eficiencia energética antes de vender una propiedad. Este certificado clasifica la eficiencia energética de la vivienda." },
+            { "type": "h2", "text": "4. Cédula de Habitabilidad:" },
+            { "type": "p", "text": "Es un documento que acredita que la vivienda cumple con los requisitos de habitabilidad según la normativa local." },
+            { "type": "h2", "text": "5. Recibos de Pago del Impuesto sobre Bienes Inmuebles (IBI):" },
+            { "type": "p", "text": "Se deben proporcionar los recibos actualizados del IBI, que es un impuesto municipal sobre la propiedad." },
+            { "type": "h2", "text": "6. Últimos Recibos de Gastos de Comunidad:" },
+            { "type": "p", "text": "Si el inmueble está en una comunidad de propietarios, se deben proporcionar los últimos recibos de los gastos de comunidad." },
+            { "type": "h2", "text": "7. Certificado de Deudas con la Comunidad de Propietarios:" },
+            { "type": "p", "text": "Un documento que certifica que el vendedor no tiene deudas pendientes con la comunidad de propietarios." },
+            { "type": "h2", "text": "8. Licencia de Ocupación o Primera Ocupación:" },
+            { "type": "p", "text": "Se debe proporcionar la licencia de ocupación o primera ocupación que acredita que la vivienda cumple con las normativas de construcción y urbanismo." },
+            { "type": "h2", "text": "9. Certificado de No Adeudo del Inmueble:" },
+            { "type": "p", "text": "Un documento que certifica que no hay deudas o gravámenes pendientes sobre la propiedad." },
+            { "type": "h2", "text": "10. Copia del DNI/NIE del Vendedor:" },
+            { "type": "p", "text": "Se requerirá una copia del documento de identidad o número de identificación de extranjero del vendedor." },
+            { "type": "h2", "text": "11. Poder Notarial (si es necesario):" },
+            { "type": "p", "text": "Si el vendedor no puede estar presente en la firma de la escritura de compraventa, puede otorgar un poder notarial a una persona para que lo represente." },
+            { "type": "pBold", "text": "Es importante señalar que estos son documentos generales y que algunos requisitos pueden variar según la región o la complejidad de la transacción. Se recomienda contar con el asesoramiento de un profesional del sector inmobiliario para asegurarse de que se cumplan todos los requisitos legales y facilitar una transacción segura y exitosa." },
+            { "type": "img", "src": "/statics/blog/articles/que-documentos-necesito-para-vender-un-inmueble/cta-image.png", "alt": "test", "height": 300, "width": 300  }
+          ]
         },
         "article7" : {
           "src": "quales-son-los-costes-asociados-a-una-venta",
@@ -237,7 +328,33 @@
             "summary": "La venta de una vivienda en España conlleva diversos gastos indispensables...",
             "continueReading": "Seguir leyendo"
           },
-          "details": []
+          "details": [
+            { "type": "img", "src": "/statics/blog/articles/quales-son-los-costes-asociados-a-una-venta/main-image.png", "alt": "test", "height": 300, "width": 300 },
+            { "type": "h1", "text": "CONCEPTO" },
+            { "type": "p", "text": "La venta de una vivienda en España conlleva diversos gastos indispensables:" },
+            { "type": "h2", "text": "1. Plusvalía Municipal (Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana):" },
+            { "type": "p", "text": "Este impuesto municipal grava el incremento del valor del terreno desde la última transmisión. Es esencial calcular este impuesto y asegurarse de pagarlo antes de la venta." },
+            { "type": "h2", "text": "2. Gastos de Notaría:" },
+            { "type": "p", "text": "La escritura de compraventa debe ser otorgada ante notario. Los gastos notariales son compartidos entre el comprador y el vendedor, aunque la distribución puede variar según lo acordado." },
+            { "type": "h2", "text": "3. Honorarios del Agente Inmobiliario:" },
+            { "type": "p", "text": "Sus honorarios suelen oscilar entre el 3% y el 5% del precio de venta, ya que facilitan la venta y proporcionan asesoramiento profesional." },
+            { "type": "h2", "text": "4. Gastos de Registro de la Propiedad:" },
+            { "type": "p", "text": "Necesarios para inscribir la escritura de compraventa en el Registro de la Propiedad y garantizar la seguridad jurídica." },
+            { "type": "h2", "text": "5. Certificado de Eficiencia Energética:" },
+            { "type": "p", "text": "Requerido por ley y fundamental para cumplir con las normativas de eficiencia energética." },
+            { "type": "h2", "text": "6. Gastos de Cancelación de Hipoteca (si aplica):" },
+            { "type": "p", "text": "Si la propiedad está hipotecada, puede haber gastos asociados a la cancelación anticipada de la hipoteca. Es importante verificar estos costos con la entidad financiera." },
+            { "type": "h2", "text": "7. Cédula de Habitabilidad:" },
+            { "type": "p", "text": "Es especialmente relevante si el comprador va a utilizar la vivienda como residencia principal." },
+            { "type": "h2", "text": "8. Gastos de Comunidad:" },
+            { "type": "p", "text": "Si la propiedad forma parte de una comunidad de propietarios, es importante asegurarse de que los pagos de la comunidad estén al día antes de la venta." },
+            { "type": "h2", "text": "9. Impuesto sobre Bienes Inmuebles (IBI):" },
+            { "type": "p", "text": "Se deben presentar los recibos actualizados del IBI, un impuesto municipal sobre la propiedad." },
+            { "type": "h2", "text": "10. Costos de Asesoría Legal:" },
+            { "type": "p", "text": "Contar con el asesoramiento de un abogado durante el proceso de venta es esencial para garantizar una transacción segura y legal." },
+            { "type": "pBold", "text": "Cabe destacar que estos costos varían en función de la región, por ello, se recomienda buscar asesoramiento profesional para estimar de manera precisa los gastos involucrados en tu caso particular." },
+            { "type": "img", "src": "/statics/blog/articles/quales-son-los-costes-asociados-a-una-venta/cta-image.png", "alt": "test", "height": 300, "width": 300  }
+          ]
         }
       }
     }
