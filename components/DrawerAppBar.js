@@ -28,23 +28,23 @@ const navItems = [
     },
     {
       "name": "landing_page.introduction.menu.ebooks",
-      "link": "#ebooks"
+      "link": "/#ebooks"
     },
     {
       "name": "landing_page.introduction.menu.newsletter",
-      "link": "#newsletter"
+      "link": "/#newsletter"
     },
     {
       "name": "landing_page.introduction.menu.aboutme",
-      "link": "#aboutme"
+      "link": "/#aboutme"
     },
     {
       "name": "landing_page.introduction.menu.experiance",
-      "link": "#experiance"
+      "link": "/#experiance"
     },
     {
       "name": "landing_page.introduction.menu.strategy",
-      "link": "#strategy"
+      "link": "/#strategy"
     },
   ];
 
