@@ -1,6 +1,16 @@
 .sectionWrapper {
     margin-top: 100px;
-    padding: 40px; 
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1500px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
 }
 
 .body {
@@ -31,4 +41,13 @@
     font-weight: 300;
     line-height: 40px; /* 166.667% */
     margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (max-width: 600px) {
+    .sectionWrapper { 
+        padding: 0;
+    } 
 }

@@ -17,7 +17,7 @@ export default function Home({ t }) {
   const articleList = Object.keys(translations.blog.articles);
   return (
     <section id='blog' className={styles.sectionWrapper}>
-        <Grid container>
+        <Grid container className={styles.container}>
             {
                 articleList.map((article, index) => {
                     const path = t(`blog.articles.article${index + 1}.src`);
@@ -32,6 +32,7 @@ export default function Home({ t }) {
                             md={4}
                             lg={3}
                             key={index}
+                            className={styles.item}
                         >
                             <Card sx={{ maxWidth: 345, margin: '20px' }}>
                                 <CardMedia
