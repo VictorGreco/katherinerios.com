@@ -1,0 +1,79 @@
+.sectionWrapper {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1500px;
+}
+
+.item {
+    display: flex;
+}
+
+.body {
+    color: #2D2E51;
+    font-family: 'Aleo', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: start;
+}
+
+.secondaryTitle {
+    color: #ff7640;
+    font-family: 'Aleo', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: start;
+}
+
+.mainTitle {
+    color: #000;
+    font-family: 'Inknut Antiqua', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px; /* 166.667% */
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (max-width: 600px) {
+    .mainTitle {
+        text-align: start;
+    }
+    .secondaryTitle {
+        text-align: start;
+    }
+    .sectionWrapper { 
+        padding: 0 20px;
+    }
+
+    .image,
+    .mainTitle,
+    .secondaryTitle,
+    .body {
+        margin-bottom: 20px;
+    }
+
+    .secondaryTitle {
+        font-size: 20px;
+    }
+
+    .body {
+        font-size: 20px;
+    }
+}

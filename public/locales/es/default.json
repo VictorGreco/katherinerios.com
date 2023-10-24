@@ -166,7 +166,24 @@
             "title": "¿Qué es el seguro de impago?",
             "summary": "El seguro de impago de alquiler, es un tipo de póliza de seguro diseñada para proteger al propietario...",
             "continueReading": "Seguir leyendo"
-          }
+          },
+          "details": [
+            { "type": "img", "src": "/statics/blog/articles/que-es-el-seguro-de-impago/main-image.png", "alt": "test", "height": 300, "width": 300 },
+            { "type": "h1", "text": "CONCEPTO" },
+            { "type": "p", "text": "El seguro de impago de alquiler, es un tipo de póliza de seguro diseñada para proteger al propietario de un inmueble contra el riesgo de impago por parte del inquilino. " },
+            { "type": "p", "text": "Este tipo de seguro brinda una capa adicional de seguridad financiera al propietario en caso de que el inquilino no cumpla con sus obligaciones de pago del alquiler. Algunos aspectos clave son:" },
+            { "type": "h2", "text": "1. Cobertura de Pérdida de Alquiler:" },
+            { "type": "p", "text": "La cobertura principal de este seguro es proteger al propietario contra la pérdida de ingresos de alquiler debido a la falta de pago por parte del inquilino." },
+            { "type": "h2", "text": "2. Periodo de Espera:" },
+            { "type": "p", "text": "Muchas pólizas tienen un período de espera antes de que la cobertura entre en vigencia, de manera que, no se puede presentar un reclamo durante un cierto tiempo después del inicio del contrato de alquiler." },
+            { "type": "h2", "text": "3. Selección del Inquilino:" },
+            { "type": "p", "text": "Algunas pólizas de seguro de impago pueden requerir que los propietarios realicen una evaluación del riesgo antes de asegurar al inquilino. Esto podría incluir verificar la solvencia financiera y antecedentes de alquiler del inquilino." },
+            { "type": "h2", "text": "4. Cobertura Adicional:" },
+            { "type": "p", "text": "Además de la cobertura principal por impago de alquiler, algunas pólizas también pueden ofrecer protección contra daños a la propiedad y otros riesgos." },
+            { "type": "h2", "text": "Proceso de Reclamación:" },
+            { "type": "p", "text": "En caso de impago, el propietario debe seguir el proceso de reclamación establecido por la compañía de seguros para recibir el pago correspondiente." },
+            { "type": "img", "src": "/statics/blog/articles/que-es-el-seguro-de-impago/cta-image.png", "alt": "test", "height": 300, "width": 300  }
+          ]
         },
         "article2" : {
           "src": "que-es-y-como-se-calcula-el-impuesto-de-plusvalia",
@@ -174,7 +191,8 @@
             "title": "¿Qué es el impuesto de plusvalía?",
             "summary": "El impuesto de plusvalía es un impuesto local que grava el incremento de valor...",
             "continueReading": "Seguir leyendo"
-          }
+          },
+          "details": []
         },
         "article3" : {
           "src": "que-es-y-como-se-calcula-el-itp",
@@ -182,7 +200,8 @@
             "title": "¿Qué es y como se calcula el ITP?",
             "summary": "El Impuesto sobre Transmisiones Patrimoniales (ITP) es un impuesto indirecto que grava las transmisiones de bienes y derechos...",
             "continueReading": "Seguir leyendo"
-          }
+          },
+          "details": []
         },
         "article4" : {
           "src": "que-es-el-fenomeno-de-la-gentrificacion",
@@ -190,7 +209,8 @@
             "title": "¿Qué es la gentrificación?",
             "summary": "La gentrificación es un fenómeno que se refiere al proceso de transformación de un área urbana, que experimenta un cambio...",
             "continueReading": "Seguir leyendo"
-          }
+          },
+          "details": []
         },
         "article5" : {
           "src": "cuanto-vale-mi-propiedad-en-el-mercado-actual",
@@ -198,7 +218,8 @@
             "title": "¿Cuánto vale mi propiedad en el mercado actual?",
             "summary": "Determinar el valor actual de una propiedad en España implica varios factores y puede requerir la asistencia de profesionales del sector...",
             "continueReading": "Seguir leyendo"
-          }
+          },
+          "details": []
         },
         "article6" : {
           "src": "que-documentos-necesito-para-vender-un-inmueble",
@@ -206,7 +227,8 @@
             "title": "¿Qué documentos necesito para vender un inmueble?",
             "summary": "La venta de un inmueble en España implica una serie de trámites y la presentación de documentos tanto por parte del vendedor como por...",
             "continueReading": "Seguir leyendo"
-          }
+          },
+          "details": []
         },
         "article7" : {
           "src": "quales-son-los-costes-asociados-a-una-venta",
@@ -214,7 +236,8 @@
             "title": "¿Cuáles son los costes asociados a una venta?",
             "summary": "La venta de una vivienda en España conlleva diversos gastos indispensables...",
             "continueReading": "Seguir leyendo"
-          }
+          },
+          "details": []
         }
       }
     }

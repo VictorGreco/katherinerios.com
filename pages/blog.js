@@ -8,9 +8,9 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 
-import translations from '../../public/locales/es/default.json';
+import translations from '../public/locales/es/default.json';
 
-import styles from '../../styles/BlogSection.module.css';
+import styles from '../styles/BlogSection.module.css';
 
 export default function Home({ t }) {
 
@@ -24,6 +24,7 @@ export default function Home({ t }) {
                     const title = t(`blog.articles.article${index + 1}.preview.title`);
                     const summary = t(`blog.articles.article${index + 1}.preview.summary`);
                     const continueReading = t(`blog.articles.article${index + 1}.preview.continueReading`);
+                    const src = `/${path}`;
 
                     return (
                         <Grid 
@@ -42,7 +43,7 @@ export default function Home({ t }) {
                                     image={`/statics/blog/articles/${path}/main-image.png`}
                                 />
                                 <CardContent>
-                                    <a href={`/${path}`}>
+                                    <a href={src}>
                                         <h2 className={styles.title}>
                                             {title}
                                         </h2>
@@ -55,7 +56,7 @@ export default function Home({ t }) {
                                     <Button 
                                         className={styles.subtitle}
                                         size="small"
-                                        onClick={() => { window.location.href=`/${path}`}}
+                                        onClick={() => { window.location.href= src }}
                                     >{continueReading}</Button>
                                 </CardActions>
                             </Card>
