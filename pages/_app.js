@@ -1,6 +1,8 @@
 import { appWithTranslation } from 'next-i18next';
 import Head from 'next/head'
 
+import { Analytics } from '@vercel/analytics/react';
+
 
 import { useTranslation } from 'next-i18next';
 import DrawerAppBar from '../components/DrawerAppBar';
@@ -19,6 +21,7 @@ const App = ({ Component, pageProps }) => {
       </Head>
       <DrawerAppBar t={t} />
       <Component {...pageProps} t={t} />
+      <Analytics />
       <Footer t={t} />
     </>
   )
