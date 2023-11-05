@@ -15,6 +15,7 @@ export default function Document() {
       </Head>
       <body>
         <Main />
+        <script type="text/javascript" id="hs-script-loader" async defer src="https://js-eu1.hs-scripts.com/143508267.js"></script>
         <NextScript />
       </body>
     </Html>
