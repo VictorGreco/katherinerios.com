@@ -6,6 +6,8 @@ import { Analytics } from '@vercel/analytics/react';
 
 import { useTranslation } from 'next-i18next';
 import DrawerAppBar from '../components/DrawerAppBar';
+import WhatsappChatButton from '../components/WhatsappChatButton';
+
 import Footer from '../components/Footer';
 
 import styles from '../styles/globals.css'; // DO NOT REMOVE
@@ -21,6 +23,7 @@ const App = ({ Component, pageProps }) => {
       </Head>
       <DrawerAppBar t={t} />
       <Component {...pageProps} t={t} />
+      <WhatsappChatButton />
       <Analytics />
       <Footer t={t} />
     </>

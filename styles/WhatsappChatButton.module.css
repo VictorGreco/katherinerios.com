@@ -1,0 +1,21 @@
+.whatsappWrapper {
+    z-index: 999;
+    position: fixed;
+    right: 5vw;
+    bottom: 5vh;
+}
+
+.whatsappLink {
+    background-color: rgb( 37,  211,  102 );
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 100%;
+}
+
+.whatsappIcon {
+    color:white;
+    height: 47px;
+    width: 47px;
+}
